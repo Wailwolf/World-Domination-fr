@@ -1,0 +1,1477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  
+  <!-- EN: GROW: Strength {0} -> {1} -->
+  <TSA_WD_Log_Grow>Force {0} -> {1}</TSA_WD_Log_Grow>
+  <!-- EN: UPGRADE: {0} -> {1} (Found {2} neighbors) -->
+  <TSA_WD_Log_Upgrade>MISE À NIVEAU : {0} -> {1} ({2} voisins trouvés)</TSA_WD_Log_Upgrade>
+  <!-- EN: UPGRADE: Failed. Target tier {0} is at local limit. -->
+  <TSA_WD_Log_UpgradeFailedLimit>Échec. La catégorie cible {0} a atteint la limite locale.</TSA_WD_Log_UpgradeFailedLimit>
+
+  <!-- EN: EXPAND: Chance check failed. -->
+  <TSA_WD_Log_ExpandChanceFail>EXPANSION : Échec de la vérification des chances.</TSA_WD_Log_ExpandChanceFail>
+  <!-- EN: EXPAND: Saturated. T1 count ({0}/{1}). -->
+  <TSA_WD_Log_ExpandSaturated>EXPANSION : Saturé. Nombre de C1 ({0}/{1})</TSA_WD_Log_ExpandSaturated>
+  <!-- EN: EXPAND: Success. New T1 founded by {0}. -->
+  <TSA_WD_Log_ExpandSuccess>EXPANSION : Succès. Nouvelle colonie C1 fondée par {0}.</TSA_WD_Log_ExpandSuccess>
+
+  
+  <!-- EN: MINOR INCIDENT: Settlement obliterated ({0} -> {1}) -->
+  <TSA_WD_Log_MinorInc_Obliterated>INCIDENT MINEUR : Colonie détruite ({0} -> {1})</TSA_WD_Log_MinorInc_Obliterated>
+  <!-- EN: MINOR INCIDENT: -{0} strength ({1} -> {2}). Downgraded to {3} -->
+  <TSA_WD_Log_MinorInc_Downgrade>INCIDENT MINEUR : -{0} force ({1} -> {2}). Réduite à {3}</TSA_WD_Log_MinorInc_Downgrade>
+  <!-- EN: MINOR INCIDENT: -{0} strength ({1} -> {2}) -->
+  <TSA_WD_Log_MinorInc_Standard>INCIDENT MINEUR : -{0} force ({1} -> {2})</TSA_WD_Log_MinorInc_Standard>
+  
+  <!-- EN: Settlement Obliterated -->
+  <TSA_WD_Letter_MinorInc_Label>Colonie détruite</TSA_WD_Letter_MinorInc_Label>
+  <!-- EN: A minor incident has completely wiped out the settlement {0} within your influence radius. The location is now vacant. -->
+  <TSA_WD_Letter_MinorInc_Text>Un incident mineur a complètement détruit la colonie {0} située dans votre rayon d'influence. L'emplacement est désormais vacant.</TSA_WD_Letter_MinorInc_Text>
+
+  <!-- EN: MAJOR INCIDENT: Settlement obliterated ({0} -> {1}) -->
+  <TSA_WD_Log_MajorInc_Obliterated>Colonie détruite ({0} -> {1})</TSA_WD_Log_MajorInc_Obliterated>
+  <!-- EN: MAJOR INCIDENT: -{0} strength ({1} -> {2}). Downgraded to {3} -->
+  <TSA_WD_Log_MajorInc_Downgrade>-{0} force ({1} -> {2}). Réduit à {3}</TSA_WD_Log_MajorInc_Downgrade>
+  <!-- EN: MAJOR INCIDENT: -{0} strength ({1} -> {2}) -->
+  <TSA_WD_Log_MajorInc_Standard>-{0} force ({1} -> {2})</TSA_WD_Log_MajorInc_Standard>
+
+  <!-- EN: Settlement Destroyed -->
+  <TSA_WD_Letter_MajorInc_Label>Colonie détruite</TSA_WD_Letter_MajorInc_Label>
+  <!-- EN: A major incident has completely destroyed the settlement {0} within your influence radius. The location is now vacant. -->
+  <TSA_WD_Letter_MajorInc_Text>Un incident majeur a complètement détruit la colonie {0} située dans votre rayon d'influence. L'emplacement est désormais vacant.</TSA_WD_Letter_MajorInc_Text>
+
+  
+  <!-- EN: {0} (Faction) -->
+  <TS_WD_Log_FactionLabel>{0} (Faction)</TS_WD_Log_FactionLabel>
+  <!-- EN: SKIP: No settlements available (All on cooldown or destroyed) -->
+  <TSA_WD_Log_ActionSkip>PASSER : Aucun établissement disponible (tous en temps de recharge ou détruits)</TSA_WD_Log_ActionSkip>
+  <!-- EN: None -->
+  <TSA_WD_None>Aucun</TSA_WD_None>
+
+  <!-- EN: Threat Multiplier: {0}x\n(Min Allowed: {1}x)\n\nActive Bases in Dynamic Range:\n -->
+  <TSA_WD_Threat_BreakdownHeader>Multiplicateur de menace : {0}x\n(Min. autorisé : {1}x)\n\nBases actives dans la plage dynamique :\n</TSA_WD_Threat_BreakdownHeader>
+  <!-- EN: - {0}: +{1} (T{2}, Dist {3}/{4}) -->
+  <TSA_WD_Threat_BreakdownLine>- {0}: +{1} (C{2}, Dist {3}/{4})</TSA_WD_Threat_BreakdownLine>
+
+  
+  <!-- EN: WD Raid: {0} -->
+  <TSA_WD_Letter_RaidPlayer_Label>WD Raid : {0}</TSA_WD_Letter_RaidPlayer_Label>
+  <!-- EN: An assault has been launched from the world map by {0}. -->
+  <TSA_WD_Letter_RaidPlayer_Text>Une attaque a été lancée depuis la carte du monde par {0}.</TSA_WD_Letter_RaidPlayer_Text>
+
+  <!-- EN: RAID: Attack on player colony -->
+  <TSA_WD_Log_Raid_PlayerAttack>RAID : Attaque contre une colonie du joueur</TSA_WD_Log_Raid_PlayerAttack>
+  <!-- EN: {0} (Colony): Storyteller Base Points {1} -->
+  <TSA_WD_Log_Raid_PlayerDefDetail>{0} (Colonie) : Points de base du conteur {1}</TSA_WD_Log_Raid_PlayerDefDetail>
+
+  
+  <!-- EN:  (Downgraded to {0}) -->
+  <TSA_WD_Log_Revolt_TierDrop>(Déclassée à {0})</TSA_WD_Log_Revolt_TierDrop>
+  <!-- EN: REVOLT: {0} was liberated from {1}. Strength: {2} -> {3}{4} -->
+  <TSA_WD_Log_Revolt_Entry>RÉVOLTE : {0} a été libérée de {1}. Force : {2} -> {3}{4}</TSA_WD_Log_Revolt_Entry>
+
+  <!-- EN: Faction Re-emergence -->
+  <TSA_WD_Letter_Revolt_Label>Réapparition de la faction</TSA_WD_Letter_Revolt_Label>
+  <!-- EN: Political upheaval! The faction {0} has emerged from obscurity, seizing control of: {1}. {2} has lost these territories to the uprising. -->
+  <TSA_WD_Letter_Revolt_Text>Bouleversement politique ! La faction {0} est sortie de l'ombre et a pris le contrôle de : {1}. {2} a perdu ces territoires au profit du soulèvement.</TSA_WD_Letter_Revolt_Text>
+
+  
+  <!-- EN: RAID: Aborted (Defender reinforcements too strong) -->
+  <TSA_WD_Log_Raid_Aborted>RAID : Abandonné (renforts défensifs trop puissants)</TSA_WD_Log_Raid_Aborted>
+  <!-- EN: RAID: Successful -->
+  <TSA_WD_Log_Raid_Successful>RAID : Succès</TSA_WD_Log_Raid_Successful>
+  <!-- EN: RAID: Failed -->
+  <TSA_WD_Log_Raid_Failed>RAID : Échoué</TSA_WD_Log_Raid_Failed>
+  <!-- EN: RAID: Razed -->
+  <TSA_WD_Log_Raid_Razed>RAID : Rasé</TSA_WD_Log_Raid_Razed>
+  <!-- EN: RAID: Outpost Wiped & Occupied -->
+  <TSA_WD_Log_Raid_OutpostOccupied>RAID : Avant-poste pillé et occupé</TSA_WD_Log_Raid_OutpostOccupied>
+  <!-- EN: RAID: Outpost Wiped -->
+  <TSA_WD_Log_Raid_OutpostWiped>RAID : Avant-poste détruit</TSA_WD_Log_Raid_OutpostWiped>
+
+  <!-- EN: Same Faction -->
+  <TSA_WD_SameFaction>Même faction</TSA_WD_SameFaction>
+  <!-- EN: Allied Faction -->
+  <TSA_WD_AlliedFaction>Faction alliée</TSA_WD_AlliedFaction>
+  <!-- EN: {0} (Attacker): Strength {1} -> {2} -->
+  <TSA_WD_Log_Raid_AttBase>{0} (Attaquant) : Force {1} -> {2}</TSA_WD_Log_Raid_AttBase>
+  <!-- EN: {0} (Defender): Strength {1} -->
+  <TSA_WD_Log_Raid_DefBase>{0} (Défenseur) : Force {1}</TSA_WD_Log_Raid_DefBase>
+  <!-- EN: {0} (Defender): Strength {1} -> {2} -->
+  <TSA_WD_Log_Raid_DefBaseFinal>{0} (Défenseur) : Force {1} -> {2}</TSA_WD_Log_Raid_DefBaseFinal>
+  <!-- EN: {0} ({1}): Contributed {2} ({3} x {4}%) [Dist: {5} tiles, band {6}] -->
+  <TSA_WD_Log_Raid_DefContrib>{0} ({1}) : Contribution {2} ({3} x {4} %) [Dist : {5} tuiles, bande {6}]</TSA_WD_Log_Raid_DefContrib>
+
+  <!-- EN: Outpost Raided -->
+  <TSA_WD_Letter_OutpostRaided_Label>Avant-poste attaqué</TSA_WD_Letter_OutpostRaided_Label>
+  <!-- EN: {0} was overrun by {1}. Personnel lost. -->
+  <TSA_WD_Letter_OutpostRaided_Text>{0} a été envahi par {1}. Perte de personnel.</TSA_WD_Letter_OutpostRaided_Text>
+  <!-- EN: Outpost Defended -->
+  <TSA_WD_Letter_OutpostDefended_Label>Avant-poste défendu</TSA_WD_Letter_OutpostDefended_Label>
+  <!-- EN: {0} successfully repelled an attack by {1}. -->
+  <TSA_WD_Letter_OutpostDefended_Text>{0} a repoussé avec succès une attaque de {1}.</TSA_WD_Letter_OutpostDefended_Text>
+  <!-- EN: Nearby Settlement Raided -->
+  <TSA_WD_Letter_NearbyRaid_Label>Raid dans une colonie voisine</TSA_WD_Letter_NearbyRaid_Label>
+  <!-- EN: A settlement ({0}) of {1} was raided by {2} within your influence radius. -->
+  <TSA_WD_Letter_NearbyRaid_Text>Une colonie ({0}) de {1} a été pillée par {2} dans votre rayon d'influence.</TSA_WD_Letter_NearbyRaid_Text>
+
+  
+  <!-- EN: Tier 1 -->
+  <TSA_WD_Tier1>Catégorie 1</TSA_WD_Tier1>
+  <!-- EN: Tier 2 -->
+  <TSA_WD_Tier2>Catégorie 2</TSA_WD_Tier2>
+  <!-- EN: Tier 3 -->
+  <TSA_WD_Tier3>Catégorie 3</TSA_WD_Tier3>
+
+  <!-- EN: Logging Village -->
+  <TSA_WD_SubType_Logging>Village forestier</TSA_WD_SubType_Logging>
+  <!-- EN: Mining Village -->
+  <TSA_WD_SubType_Mining>Village minier</TSA_WD_SubType_Mining>
+  <!-- EN: Farming Village -->
+  <TSA_WD_SubType_Farming>Village agricole</TSA_WD_SubType_Farming>
+  <!-- EN: Production Town -->
+  <TSA_WD_SubType_Production>Ville productive</TSA_WD_SubType_Production>
+  <!-- EN: Slavery Town -->
+  <TSA_WD_SubType_Slavery>Ville esclavagiste</TSA_WD_SubType_Slavery>
+  <!-- EN: Fortress -->
+  <TSA_WD_SubType_Fortress>Forteresse</TSA_WD_SubType_Fortress>
+  <!-- EN: Settlement -->
+  <TSA_WD_SubType_Generic>Colonie</TSA_WD_SubType_Generic>
+
+  <!-- EN: Player Colony -->
+  <TSA_WD_Inspect_PlayerColony>Colonie du joueur</TSA_WD_Inspect_PlayerColony>
+  <!-- EN: {0} {1} (Strength: {2}) -->
+  <TSA_WD_Inspect_Settlement>{0} {1} (Force : {2})</TSA_WD_Inspect_Settlement>
+  <!-- EN: Outpost (Strength: {0} / {1}) -->
+  <TSA_WD_Inspect_Outpost>Avant-poste (Force : {0} / {1})</TSA_WD_Inspect_Outpost>
+  <!-- EN: Influence Radius: {0} tiles -->
+  <TSA_WD_Inspect_Influence>Rayon d'influence : {0} tuiles</TSA_WD_Inspect_Influence>
+
+  <!-- EN: Espionage Cooldown ({0} days) -->
+  <TSA_WD_Inspect_EspionageCD>Temps de recharge de l'espionnage ({0} jours)</TSA_WD_Inspect_EspionageCD>
+  <!-- EN: Global Action Cooldown ({0} days) -->
+  <TSA_WD_Inspect_GlobalCD>Temps de recharge de l'action globale ({0} jours)</TSA_WD_Inspect_GlobalCD>
+  <!-- EN: Aid Cooldown ({0} days) -->
+  <TSA_WD_Inspect_AidCD>Temps de recharge de l'aide ({0} jours)</TSA_WD_Inspect_AidCD>
+
+  <!-- EN: Defensive Coalition -->
+  <TSA_WD_Diplo_Coalition_Label>Coalition défensive</TSA_WD_Diplo_Coalition_Label>
+  <!-- EN: The factions {0} have formed an alliance to topple the leading faction {1}. -->
+  <TSA_WD_Diplo_Coalition_Msg>Les factions {0} ont formé une alliance pour renverser la faction dominante {1}.</TSA_WD_Diplo_Coalition_Msg>
+
+  <!-- EN: Diplomatic Change -->
+  <TSA_WD_Diplo_Change_Label>Changement diplomatique</TSA_WD_Diplo_Change_Label>
+  <!-- EN: {0} and {1} have declared war. -->
+  <TSA_WD_Diplo_Flavor_War>{0} et {1} se sont déclarés la guerre.</TSA_WD_Diplo_Flavor_War>
+  <!-- EN: {0} and {1} are now allies. -->
+  <TSA_WD_Diplo_Flavor_Ally>{0} et {1} sont désormais alliés.</TSA_WD_Diplo_Flavor_Ally>
+  <!-- EN: {0} and {1} have signed a peace treaty. -->
+  <TSA_WD_Diplo_Flavor_Peace>{0} et {1} ont signé un traité de paix.</TSA_WD_Diplo_Flavor_Peace>
+
+  
+  <!-- EN: Spread Disinformation -->
+  <TSA_WD_Dis_GizmoLabel>Diffuser de la désinformation</TSA_WD_Dis_GizmoLabel>
+  <!-- EN: Launch a disinformation campaign with your pawn {0} (Social: {1}).\n\nSuccess Probability Math:\n  Base: {2}\n  Skill: +{3}\n  Tier: -{4}\n  Health: x{5}\n- - - - - - - - - - - - - - - -\n  Total Success: {6}\n\nDetection results in -30 Reputation. -->
+  <TSA_WD_Dis_GizmoDesc>Lancez une campagne de désinformation avec votre pion {0} (Social : {1}).\n\nProbabilité de réussite mathématique :\n  Base : {2}\n  Compétence : +{3}\n  Catégorie : -{4}\n  Santé : x{5}\n- - - - - - - - - - - - - - - -\n  Succès total : {6}\n\nLa détection entraîne une perte de réputation de -30.</TSA_WD_Dis_GizmoDesc>
+  <!-- EN: Nearby targets are on high espionage alert. -->
+  <TSA_WD_Dis_DisabledAlert>Les cibles proches sont en état d'alerte maximale contre l'espionnage.</TSA_WD_Dis_DisabledAlert>
+  <!-- EN: {0} ({1}) - {2} Success -->
+  <TSA_WD_Dis_MenuOption>{0} ({1}) - {2} Succès</TSA_WD_Dis_MenuOption>
+
+  <!-- EN: Settlement Collapsed! -->
+  <TSA_WD_Dis_LetterCollapsedLabel>Colonie détruite !</TSA_WD_Dis_LetterCollapsedLabel>
+  <!-- EN: {0}'s disinformation campaign was so effective that {1} has dissolved in chaos. -->
+  <TSA_WD_Dis_LetterCollapsedText>La campagne de désinformation menée par {0} a été si efficace que {1} s'est dissoute dans le chaos.</TSA_WD_Dis_LetterCollapsedText>
+  <!-- EN: Disinformation Success -->
+  <TSA_WD_Dis_LetterSuccessLabel>Succès de la désinformation</TSA_WD_Dis_LetterSuccessLabel>
+  <!-- EN: {0} reduced {1} strength by {2} through rumor and discord. -->
+  <TSA_WD_Dis_LetterSuccessText>{0} a réduit la force de {1} de {2} par des rumeurs et des dissensions.</TSA_WD_Dis_LetterSuccessText>
+
+  <!-- EN: Disinformation Failed -->
+  <TSA_WD_Dis_LetterFailedLabel>La désinformation a échoué</TSA_WD_Dis_LetterFailedLabel>
+  <!-- EN: {0} failed to sow discord at {1}.  -->
+  <TSA_WD_Dis_LetterFailedTextBase>{0} n'a pas réussi à semer la discorde chez {1}.</TSA_WD_Dis_LetterFailedTextBase>
+  <!-- EN: They were nearly caught while meeting with informants, but used their Social skills to talk their way out of suspicion and slip away undetected. -->
+  <TSA_WD_Dis_FailureSilvertongue>Votre pion a failli se faire prendre alors qu'il rencontrait des informateurs, mais il a utilisé ses compétences sociales pour dissiper les soupçons et s'éclipser sans être repéré.</TSA_WD_Dis_FailureSilvertongue>
+  <!-- EN: The locals were unimpressed by the rumors, but your spy managed to retreat before the authorities were alerted. -->
+  <TSA_WD_Dis_FailureClean>Les habitants n'ont pas été impressionnés par les rumeurs, mais votre espion a réussi à se retirer avant que les autorités ne soient alertées.</TSA_WD_Dis_FailureClean>
+  <!-- EN: The rumors were traced back to them and guards attempted an arrest. They fought back with unexpected ferocity, escaping with wounds instead of facing a executioner. -->
+  <TSA_WD_Dis_FailureFightback>Les rumeurs se sont retournées contre votre pion et lui ont été attribuées, les gardes ont tenté de l'arrêter. Il s'est défendu avec une férocité inattendue, s'échappant avec des blessures au lieu d'affronter ses bourreaux.</TSA_WD_Dis_FailureFightback>
+  <!-- EN: They were identified as an agitator and wounded while fleeing the city. -->
+  <TSA_WD_Dis_FailureSpotted>Votre pion a été identifié comme étant un agitateur et a été blessé alors qu'il fuyait la ville.</TSA_WD_Dis_FailureSpotted>
+  <!-- EN: They were caught spreading state secrets and executed for espionage. -->
+  <TSA_WD_Dis_FailureExecuted>Votre pion a été surpris en train de divulguer des secrets d'État et exécuté pour espionnage.</TSA_WD_Dis_FailureExecuted>
+
+  <!-- EN: DISINFORMATION: Destroyed ({0} -> 0) -->
+  <TSA_WD_Dis_LogDestroyed>DÉSINFORMATION : Détruit ({0} -> 0)</TSA_WD_Dis_LogDestroyed>
+  <!-- EN: DISINFORMATION: Success ({0} -> {1}) -->
+  <TSA_WD_Dis_LogSuccess>DÉSINFORMATION : Succès ({0} -> {1})</TSA_WD_Dis_LogSuccess>
+  <!-- EN: DISINFORMATION: {0} -->
+  <TSA_WD_Dis_LogMain>DÉSINFORMATION : {0}</TSA_WD_Dis_LogMain>
+  <!-- EN: Failed (Clean Escape) -->
+  <TSA_WD_Dis_LogClean>Échec (échapper belle)</TSA_WD_Dis_LogClean>
+  <!-- EN: Failed (Detected/Injured) -->
+  <TSA_WD_Dis_LogInjured>Échec (détecté/blessé)</TSA_WD_Dis_LogInjured>
+  <!-- EN: Failed (Killed) -->
+  <TSA_WD_Dis_LogKilled>Échec (exécuté)</TSA_WD_Dis_LogKilled>
+
+  
+  <!-- EN: Fortify -->
+  <TSA_WD_Fort_GizmoLabel>Fortifier</TSA_WD_Fort_GizmoLabel>
+  <!-- EN: Try to fortify the settlement with your pawn {0} (Crafting: {1}).\n\nSuccess Chance: {2}\nSuccess adds defensive strength. -->
+  <TSA_WD_Fort_GizmoDesc>Essayez de fortifier la colonie avec votre pion {0} (Artisanat : {1}).\n\nChance de réussite : {2}\nEn cas de réussite, la force défensive augmente.</TSA_WD_Fort_GizmoDesc>
+  <!-- EN: Nearby settlements have already been recently fortified. -->
+  <TSA_WD_Fort_DisabledAlert>Les colonies voisines ont déjà été fortifiées récemment.</TSA_WD_Fort_DisabledAlert>
+  <!-- EN: {0} - {1} Success -->
+  <TSA_WD_Fort_MenuOption>{0} - {1} Réussite</TSA_WD_Fort_MenuOption>
+
+  <!-- EN: Fortification Success -->
+  <TSA_WD_Fort_LetterSuccessLabel>Succès de la fortification</TSA_WD_Fort_LetterSuccessLabel>
+  <!-- EN: {0} successfully assisted {1}. The infrastructure was improved successfully. Strength increased {2}. -->
+  <TSA_WD_Fort_LetterSuccessText>{0} a aidé {1} avec succès. L'infrastructure a été améliorée avec succès. La force a augmenté de {2}.</TSA_WD_Fort_LetterSuccessText>
+  <!-- EN: Fortification Failed -->
+  <TSA_WD_Fort_LetterFailedLabel>Fortification échouée</TSA_WD_Fort_LetterFailedLabel>
+  <!-- EN: {0} was unable to significantly improve the defenses of {1}. -->
+  <TSA_WD_Fort_LetterFailedText>{0} n'a pas réussi à améliorer de manière significative les défenses de {1}.</TSA_WD_Fort_LetterFailedText>
+
+  <!-- EN: FORTIFY: Success ({0} -> {1}) -->
+  <TSA_WD_Fort_LogSuccess>FORTIFIER : Succès ({0} -> {1})</TSA_WD_Fort_LogSuccess>
+  <!-- EN: FORTIFY: Failed -->
+  <TSA_WD_Fort_LogFailed>FORTIFIER : Échec</TSA_WD_Fort_LogFailed>
+
+  
+  <!-- EN: Sabotage -->
+  <TSA_WD_Sab_GizmoLabel>Sabotage</TSA_WD_Sab_GizmoLabel>
+  <!-- EN: Launch a sabotage mission with your pawn {0} (Crafting: {1}).\n\nTotal Success: {2}\nDetection results in -30 Reputation. -->
+  <TSA_WD_Sab_GizmoDesc>Lancez une mission de sabotage avec votre pion {0} (Artisanat : {1}).\n\nSuccès total : {2}\nLa détection entraîne une perte de réputation de -30.</TSA_WD_Sab_GizmoDesc>
+  <!-- EN: All nearby targets are on high alert. -->
+  <TSA_WD_Sab_DisabledAlert>Toutes les cibles proches sont en état d'alerte maximale.</TSA_WD_Sab_DisabledAlert>
+  <!-- EN: {0} ({1}) - {2} Success -->
+  <TSA_WD_Sab_MenuOption>{0} ({1}) - {2} Réussite</TSA_WD_Sab_MenuOption>
+  <!-- EN: [ON COOLDOWN] -->
+  <TSA_WD_OnCooldown>[EN RECHARGE]</TSA_WD_OnCooldown>
+
+  <!-- EN: Settlement Sabotaged! -->
+  <TSA_WD_Sab_LetterObliteratedLabel>Colonie sabotée !</TSA_WD_Sab_LetterObliteratedLabel>
+  <!-- EN: {0} obliterated {1}. -->
+  <TSA_WD_Sab_LetterObliteratedText>{0} a oblitéré {1}.</TSA_WD_Sab_LetterObliteratedText>
+  <!-- EN: Sabotage Success -->
+  <TSA_WD_Sab_LetterSuccessLabel>Succès du sabotage</TSA_WD_Sab_LetterSuccessLabel>
+  <!-- EN: {0} reduced {1} strength by {2}. -->
+  <TSA_WD_Sab_LetterSuccessText>{0} a réduit la force de {1} de {2}.</TSA_WD_Sab_LetterSuccessText>
+
+  <!-- EN: Sabotage Failed -->
+  <TSA_WD_Sab_LetterFailedLabel>Sabotage échoué</TSA_WD_Sab_LetterFailedLabel>
+  <!-- EN: {0} failed the mission at {1}.  -->
+  <TSA_WD_Sab_LetterFailedTextBase>{0} a échoué dans sa mission à {1}.</TSA_WD_Sab_LetterFailedTextBase>
+  <!-- EN: They were nearly caught, but used their Social skills to talk their way out of a confrontation and slip away. -->
+  <TSA_WD_Sab_FailureSilvertongue>Votre pion a failli se faire prendre, mais a utilisé ses compétences sociales pour se sortir d'une confrontation et s'échapper.</TSA_WD_Sab_FailureSilvertongue>
+  <!-- EN: They managed to retreat into the shadows before being spotted. -->
+  <TSA_WD_Sab_FailureClean>Votre pion a réussi à se réfugier dans l'ombre avant d'être repéré.</TSA_WD_Sab_FailureClean>
+  <!-- EN: They were caught and sentenced to execution, but fought back with incredible skill, escaping with several wounds instead of their life. -->
+  <TSA_WD_Sab_FailureFightback>Votre pion a été arrêté et condamné à mort, mais il s'est défendu avec une habileté incroyable et s'est échappé avec plusieurs blessures au lieu de perdre la vie.</TSA_WD_Sab_FailureFightback>
+  <!-- EN: They were spotted by guards and wounded while fleeing the scene. -->
+  <TSA_WD_Sab_FailureSpotted>Votre pion a été repéré par des gardes et blessé alors qu'il s'enfuyait.</TSA_WD_Sab_FailureSpotted>
+  <!-- EN: They were caught red-handed and executed on the spot. -->
+  <TSA_WD_Sab_FailureExecuted>Votre pion a été pris en flagrant délit et exécuté sur-le-champ.</TSA_WD_Sab_FailureExecuted>
+
+  <!-- EN: SABOTAGE: Destroyed ({0} -> 0) -->
+  <TSA_WD_Sab_LogDestroyed>SABOTAGE : Détruit ({0} -> 0)</TSA_WD_Sab_LogDestroyed>
+  <!-- EN: SABOTAGE: Success ({0} -> {1}) -->
+  <TSA_WD_Sab_LogSuccess>SABOTAGE : Succès ({0} -> {1})</TSA_WD_Sab_LogSuccess>
+  <!-- EN: SABOTAGE: {0} -->
+  <TSA_WD_Sab_LogMain>SABOTAGE : {0}</TSA_WD_Sab_LogMain>
+  <!-- EN: Failed (Clean Escape) -->
+  <TSA_WD_Sab_LogClean>Échec (échapper belle)</TSA_WD_Sab_LogClean>
+  <!-- EN: Failed (Injured) -->
+  <TSA_WD_Sab_LogInjured>Échec (blessé)</TSA_WD_Sab_LogInjured>
+  <!-- EN: Failed (Killed) -->
+  <TSA_WD_LogKilled>Échec (exécuté)</TSA_WD_LogKilled>
+
+  
+  <!-- EN: Diplomacy -->
+  <TSA_WD_Diplo_Header>Diplomatie</TSA_WD_Diplo_Header>
+
+  <!-- EN: Enable Random Allegiance Changes -->
+  <TSA_WD_Diplo_RandomEnable>Activer les changements aléatoires d'allégeance</TSA_WD_Diplo_RandomEnable>
+  <!-- EN: Random Change Chance -->
+  <TSA_WD_Diplo_RandomChance>Chance de changement aléatoire</TSA_WD_Diplo_RandomChance>
+  <!-- EN: Daily Revolt Chance -->
+  <TSA_WD_Diplo_RevoltChance>Chance quotidienne de révolte</TSA_WD_Diplo_RevoltChance>
+  <!-- EN: Enable Anti-Leader Coalitions -->
+  <TSA_WD_Diplo_AntiLeader>Activer les coalitions anti-dirigeants</TSA_WD_Diplo_AntiLeader>
+  <!-- EN: Enable Dominant Faction Handicap (Debuff) -->
+  <TSA_WD_Diplo_LeaderHandicap>Activer le handicap de faction dominante (malus)</TSA_WD_Diplo_LeaderHandicap>
+  <!-- EN: Enable Underdog Mobilization (Buff) -->
+  <TSA_WD_Diplo_UnderdogBuff>Activer la mobilisation des opprimés (bonus)</TSA_WD_Diplo_UnderdogBuff>
+  <!-- EN: Reset this page to defaults -->
+  <TSA_WD_Diplo_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Diplo_Reset>
+
+  <!-- EN: If enabled, NPC factions will occasionally change their relations (Peace, War, Alliances) independently. -->
+  <TSA_WD_Diplo_RandomEnableTooltip>Si cette option est activée, les factions PNJ modifieront occasionnellement leurs relations (paix, guerre, alliances) de manière indépendante.</TSA_WD_Diplo_RandomEnableTooltip>
+  <!-- EN: The daily probability that a random diplomatic event occurs between two factions. -->
+  <TSA_WD_Diplo_RandomChanceTooltip>Probabilité quotidienne qu'un événement diplomatique aléatoire se produise entre deux factions.</TSA_WD_Diplo_RandomChanceTooltip>
+  <!-- EN: The daily percentage chance that a defeated faction will revolt and take over a random settlement from the faction having the most settlements. -->
+  <TSA_WD_Diplo_RevoltChanceTooltip>Probabilité quotidienne qu'une faction vaincue se révolte et s'empare d'une colonie aléatoire appartenant à la faction qui possède le plus grand nombre de colonies. </TSA_WD_Diplo_RevoltChanceTooltip>
+  <!-- EN: Small factions may form a defensive alliance and declare war on the world's most dominant faction to restore balance. -->
+  <TSA_WD_Diplo_AntiLeaderTooltip>Les petites factions peuvent former une coalition et déclarer la guerre à la faction la plus dominante afin de rétablir l'équilibre.</TSA_WD_Diplo_AntiLeaderTooltip>
+  <!-- EN: The strongest faction suffers from internal strife and logistical issues, increasing their incident frequency. -->
+  <TSA_WD_Diplo_LeaderHandicapTooltip>La faction la plus puissante souffre de conflits internes et de problèmes logistiques, ce qui augmente la fréquence des incidents.</TSA_WD_Diplo_LeaderHandicapTooltip>
+  <!-- EN: The weakest faction becomes small and nimble, granting them increased growth speed for a limited time. -->
+  <TSA_WD_Diplo_UnderdogBuffTooltip>La faction la plus faible devient petite et agile, ce qui lui confère une vitesse de croissance accrue pendant un temps limité.</TSA_WD_Diplo_UnderdogBuffTooltip>
+
+  
+  <!-- EN: Disinformation Settings: Base Outcome Likelihood -->
+  <TSA_WD_Dis_HeaderWeights>Paramètres de désinformation : probabilité du résultat de base</TSA_WD_Dis_HeaderWeights>
+  <!-- EN: Success Likelihood Modifiers -->
+  <TSA_WD_Dis_HeaderModifiers>Modificateurs de probabilité de réussite</TSA_WD_Dis_HeaderModifiers>
+  <!-- EN: Saving Throws -->
+  <TSA_WD_Dis_HeaderSaves>Jets de sauvegarde</TSA_WD_Dis_HeaderSaves>
+  <!-- EN: Success Outcome and Cooldown -->
+  <TSA_WD_Dis_HeaderOutcome>Résultat positif et temps de recharge</TSA_WD_Dis_HeaderOutcome>
+  <!-- EN: Concrete Examples (Against T2 Town with healthy pawn) -->
+  <TSA_WD_Dis_HeaderSimulation>Exemples concrets (contre Ville C2 avec un pion en bonne santé)</TSA_WD_Dis_HeaderSimulation>
+
+  <!-- EN: Success Weight -->
+  <TSA_WD_Dis_WeightSuccess>Poids de réussite</TSA_WD_Dis_WeightSuccess>
+  <!-- EN: Failure Weight (Clean Escape) -->
+  <TSA_WD_Dis_WeightClean>Poids d'échec (échapper belle)</TSA_WD_Dis_WeightClean>
+  <!-- EN: Failure Weight (Injury) -->
+  <TSA_WD_Dis_WeightInjured>Poids d'échec (blessure)</TSA_WD_Dis_WeightInjured>
+  <!-- EN: Failure Weight (Death) -->
+  <TSA_WD_Dis_WeightFatal>Poids d'échec (mort)</TSA_WD_Dis_WeightFatal>
+  
+  <!-- EN: Success Weight Bonus per Social Lvl -->
+  <TSA_WD_Dis_SkillBonus>Bonus de poids de réussite par niveau social</TSA_WD_Dis_SkillBonus>
+  <!-- EN: Success Weight Penalty per Settlement Tier -->
+  <TSA_WD_Dis_TierPenalty>Pénalité de poids de réussite par catégorie de colonie</TSA_WD_Dis_TierPenalty>
+  <!-- EN: Health Impact on Success -->
+  <TSA_WD_Dis_HealthImpact>Impact de la santé sur la réussite</TSA_WD_Dis_HealthImpact>
+  
+  <!-- EN: Silvertongue bonus per Social Lvl -->
+  <TSA_WD_Dis_SocialSave>Bonus d' « Éloquence » par niveau social</TSA_WD_Dis_SocialSave>
+  <!-- EN: Fight your way out bonus per Combat Lvl -->
+  <TSA_WD_Dis_CombatSave>Bonus « Fuir par la force » par niveau de combat</TSA_WD_Dis_CombatSave>
+  
+  <!-- EN: Base Strength Point Reduction -->
+  <TSA_WD_Dis_BaseReduc>Réduction du point de force de base</TSA_WD_Dis_BaseReduc>
+  <!-- EN: Strength Point Reduction per Social Skill Lvl -->
+  <TSA_WD_Dis_SkillReduc>Réduction des points de force par niveau de compétence sociale</TSA_WD_Dis_SkillReduc>
+  <!-- EN: Cooldown after Disinformation Attempt -->
+  <TSA_WD_Dis_Cooldown>Temps de recharge après une tentative de désinformation</TSA_WD_Dis_Cooldown>
+  <!-- EN: Reset this page to Defaults -->
+  <TSA_WD_Dis_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Dis_Reset>
+
+  <!-- EN: Base weight of a successful disinformation attempt before modifiers. -->
+  <TSA_WD_Dis_WeightSuccessTooltip>Poids de base d'une tentative de désinformation réussie avant modificateurs.</TSA_WD_Dis_WeightSuccessTooltip>
+  <!-- EN: Relative frequency of safe failure. -->
+  <TSA_WD_Dis_WeightCleanTooltip>Fréquence relative d'échapper belles.</TSA_WD_Dis_WeightCleanTooltip>
+  <!-- EN: Relative frequency of being wounded on failure. -->
+  <TSA_WD_Dis_WeightInjuredTooltip>Fréquence relative de blessures en cas d'échec.</TSA_WD_Dis_WeightInjuredTooltip>
+  <!-- EN: Relative frequency of execution on failure. -->
+  <TSA_WD_Dis_WeightFatalTooltip>Fréquence relative d'exécution en cas d'échec.</TSA_WD_Dis_WeightFatalTooltip>
+  <!-- EN: Adds flat weight points to Success outcome per Social level. -->
+  <TSA_WD_Dis_SkillBonusTooltip>Ajoute des points de poids fixes au résultat « Succès » par niveau social.</TSA_WD_Dis_SkillBonusTooltip>
+  <!-- EN: Subtracts flat weight points from Success outcome based on target Tier. -->
+  <TSA_WD_Dis_TierPenaltyTooltip>Soustrait des points de poids fixes au résultat « Succès » en fonction de la Catégorie de colonie ciblée.</TSA_WD_Dis_TierPenaltyTooltip>
+  <!-- EN: How much health affects success. At 100%, a pawn with 50% health has their success weight halved. -->
+  <TSA_WD_Dis_HealthImpactTooltip>Quel est le poids de la santé sur la réussite. À 100 %, un pion dont la santé est à 50 % voit son poids de réussite réduit de moitié.</TSA_WD_Dis_HealthImpactTooltip>
+  <!-- EN: The percentage chance per Social Skill level to convert an 'Injury' into a 'Clean Escape' when an attempt fails. -->
+  <TSA_WD_Dis_SocialSaveTooltip>Pourcentage de chances par niveau de compétence sociale de transformer une « blessure » en « échapper belle » lorsqu'une tentative échoue.</TSA_WD_Dis_SocialSaveTooltip>
+  <!-- EN: The percentage chance per Shooting/Melee Skill level (whichever is higher) to convert a 'Fatal' outcome into an 'Injury' when an attempt fails. -->
+  <TSA_WD_Dis_CombatSaveTooltip>Pourcentage de chances par niveau de compétence de tir/combat au corps à corps (le plus élevé des deux) de convertir un résultat « mortel » en « blessure » lorsqu'une tentative échoue.</TSA_WD_Dis_CombatSaveTooltip>
+  <!-- EN: Strength removed from the settlement on success. -->
+  <TSA_WD_Dis_BaseReducTooltip>Force retirée de la colonie en cas de succès.</TSA_WD_Dis_BaseReducTooltip>
+  <!-- EN: Additional damage based on the pawn's Social skill. -->
+  <TSA_WD_Dis_SkillReducTooltip>Dégâts supplémentaires basés sur la compétence sociale du pion.</TSA_WD_Dis_SkillReducTooltip>
+  <!-- EN: Duration the target settlement remains on high alert after an attempt. -->
+  <TSA_WD_Dis_CooldownTooltip>Durée pendant laquelle la cible reste en état d'alerte maximale après une tentative.</TSA_WD_Dis_CooldownTooltip>
+
+  <!-- EN: All Relevant Skills Lvl 0 -->
+  <TSA_WD_Dis_SimLvl0>Toutes les compétences pertinentes Niveau 0</TSA_WD_Dis_SimLvl0>
+  <!-- EN: All Relevant Skills Lvl 10 -->
+  <TSA_WD_Dis_SimLvl10>Toutes les compétences pertinentes Niveau 10</TSA_WD_Dis_SimLvl10>
+  <!-- EN: All Relevant Skills Lvl 20 -->
+  <TSA_WD_Dis_SimLvl20>Toutes les compétences pertinentes Niveau 20</TSA_WD_Dis_SimLvl20>
+  <!-- EN: {0} | Success: {1} | Clean Fail: {2} | Injury: {3} | Death: {4} -->
+  <TSA_WD_Dis_SimResult>{0} | Succès : {1} | Échapper belle : {2} | Blessure : {3} | Décès : {4}</TSA_WD_Dis_SimResult>
+
+  
+  <!-- EN: General Growth Settings -->
+  <TSA_WD_Growth_HeaderGrowth>Paramètres généraux de croissance</TSA_WD_Growth_HeaderGrowth>
+  <!-- EN: Incident Severity -->
+  <TSA_WD_Growth_HeaderIncidents>Gravité de l'incident</TSA_WD_Growth_HeaderIncidents>
+  <!-- EN: Expansion & Local Density Limits -->
+  <TSA_WD_Growth_HeaderExpansion>Limites d'expansion et de densité locale</TSA_WD_Growth_HeaderExpansion>
+  
+  <!-- EN: Max Planet Settlements -->
+  <TSA_WD_Growth_MaxSettlements>Colonies max. de la planète</TSA_WD_Growth_MaxSettlements>
+  <!-- EN: Growth Strength Gain -->
+  <TSA_WD_Growth_BaseGrowth>Gain de force de croissance</TSA_WD_Growth_BaseGrowth>
+  <!-- EN: Scaling based on Settlement Size -->
+  <TSA_WD_Growth_Scaling>Échelle basée sur la taille de colonie</TSA_WD_Growth_Scaling>
+  <!-- EN: Minor Incident Strength Loss -->
+  <TSA_WD_Growth_MinorInc>Incident mineur de Perte de force</TSA_WD_Growth_MinorInc>
+  <!-- EN: Major Incident Strength Loss -->
+  <TSA_WD_Growth_MajorInc>Incident majeur de Perte de force</TSA_WD_Growth_MajorInc>
+  <!-- EN: Min Expansion Radius -->
+  <TSA_WD_Growth_MinRadius>Rayon d'expansion minimal</TSA_WD_Growth_MinRadius>
+  <!-- EN: Max Expansion Radius -->
+  <TSA_WD_Growth_MaxRadius>Rayon d'expansion maximal</TSA_WD_Growth_MaxRadius>
+  <!-- EN: Expansion Success Chance -->
+  <TSA_WD_Growth_ExpandChance>Chance de réussite d'expansion</TSA_WD_Growth_ExpandChance>
+  <!-- EN: Local Max T1 Outposts -->
+  <TSA_WD_Growth_LocalMaxT1>Max. d'avant-postes locaux de C1</TSA_WD_Growth_LocalMaxT1>
+  <!-- EN: Local Max T2 Villages -->
+  <TSA_WD_Growth_LocalMaxT2>Max. de villages locaux de C2</TSA_WD_Growth_LocalMaxT2>
+  <!-- EN: Local Max T3 Towns -->
+  <TSA_WD_Growth_LocalMaxT3>Max. de villes locales de C3</TSA_WD_Growth_LocalMaxT3>
+  <!-- EN: Reset this page to Defaults -->
+  <TSA_WD_Growth_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Growth_Reset>
+
+  <!-- EN: Maximum total settlements allowed globally before expansion is capped. -->
+  <TSA_WD_Growth_MaxSettlementsTooltip>Le nombre total maximal de colonies autorisées à l'échelle mondiale avant que l'expansion ne soit plafonnée.</TSA_WD_Growth_MaxSettlementsTooltip>
+  <!-- EN: Base Strength Points gained per Growth Action. -->
+  <TSA_WD_Growth_BaseGrowthTooltip>Points de force de base gagnés par action de croissance.</TSA_WD_Growth_BaseGrowthTooltip>
+  <!-- EN: At 100% small settlements grow faster and big settlements grow slower to simulate logistical overhead. -->
+  <TSA_WD_Growth_ScalingTooltip>À 100 %, les petites colonies se développent plus rapidement et les grandes colonies se développent plus lentement afin de simuler les besoins généraux en logistique.</TSA_WD_Growth_ScalingTooltip>
+  <!-- EN: Strength points lost during a minor internal setback. -->
+  <TSA_WD_Growth_MinorIncTooltip>Points de force perdus lors d'un léger incident interne.</TSA_WD_Growth_MinorIncTooltip>
+  <!-- EN: Strength points lost during a major catastrophe. -->
+  <TSA_WD_Growth_MajorIncTooltip>Points de force perdus lors d'une catastrophe majeure.</TSA_WD_Growth_MajorIncTooltip>
+  <!-- EN: Minimum tile distance required to find a new expansion location. -->
+  <TSA_WD_Growth_MinRadiusTooltip>Distance minimale entre les tuiles requise pour trouver un nouvel emplacement d'extension.</TSA_WD_Growth_MinRadiusTooltip>
+  <!-- EN: Maximum tile distance allowed for expansion and the radius used to calculate local density. -->
+  <TSA_WD_Growth_MaxRadiusTooltip>Distance maximale autorisée entre les tuiles pour l'expansion et rayon utilisé pour calculer la densité locale.</TSA_WD_Growth_MaxRadiusTooltip>
+  <!-- EN: The probability that a max-strength settlement successfully founds a new settlement. -->
+  <TSA_WD_Growth_ExpandChanceTooltip>Probabilité qu'une colonie à puissance maximale réussisse à fonder une nouvelle colonie.</TSA_WD_Growth_ExpandChanceTooltip>
+  <!-- EN: Maximum T1 settlements allowed within the max Expansion Radius before further expansion is blocked. -->
+  <TSA_WD_Growth_LocalMaxT1Tooltip>Nombre maximal de colonies C1 autorisées dans le rayon d'expansion maximal avant que toute nouvelle expansion ne soit bloquée.</TSA_WD_Growth_LocalMaxT1Tooltip>
+  <!-- EN: Maximum T2 settlements allowed within the max Expansion Radius. -->
+  <TSA_WD_Growth_LocalMaxT2Tooltip>Nombre maximal de colonies C2 autorisées dans le rayon d'expansion maximal.</TSA_WD_Growth_LocalMaxT2Tooltip>
+  <!-- EN: Maximum T3 settlements allowed within the max Expansion Radius. -->
+  <TSA_WD_Growth_LocalMaxT3Tooltip>Nombre maximal de colonies C3 autorisées dans le rayon d'expansion maximal.</TSA_WD_Growth_LocalMaxT3Tooltip>
+
+  
+  <!-- EN: World Domination -->
+  <TSA_WD_Category>World Domination (Domination mondiale)</TSA_WD_Category>
+
+  <!-- EN: General Settings -->
+  <TSA_WD_HeaderGeneral>Paramètres généraux</TSA_WD_HeaderGeneral>
+  <!-- EN: World Actions -->
+  <TSA_WD_HeaderWorldActions>Actions mondiales</TSA_WD_HeaderWorldActions>
+  <!-- EN: Manual Player Interactions -->
+  <TSA_WD_HeaderPlayerInteractions>Interactions manuelles du joueur</TSA_WD_HeaderPlayerInteractions>
+  <!-- EN: Miscellaneous -->
+  <TSA_WD_HeaderMisc>Divers</TSA_WD_HeaderMisc>
+  <!-- EN: System Actions -->
+  <TSA_WD_HeaderSystem>Actions du système</TSA_WD_HeaderSystem>
+
+  <!-- EN: World Actions -->
+  <TSA_WD_BtnDailyActions>Actions mondiales</TSA_WD_BtnDailyActions>
+  <!-- EN: Raid Point Multiplier -->
+  <TSA_WD_BtnRaidMult>Multiplicateur de points de raid</TSA_WD_BtnRaidMult>
+  <!-- EN: Diplomacy -->
+  <TSA_WD_BtnDiplomacy>Diplomatie</TSA_WD_BtnDiplomacy>
+  <!-- EN: World Map Raids -->
+  <TSA_WD_BtnWorldRaids>Raids sur la carte du monde</TSA_WD_BtnWorldRaids>
+  <!-- EN: Growth & Expansion -->
+  <TSA_WD_BtnGrowthExpand>Croissance et expansion</TSA_WD_BtnGrowthExpand>
+  <!-- EN: Sabotage -->
+  <TSA_WD_BtnSabotage>Sabotage</TSA_WD_BtnSabotage>
+  <!-- EN: Disinformation -->
+  <TSA_WD_BtnDisinformation>Désinformation</TSA_WD_BtnDisinformation>
+  <!-- EN: Notifications -->
+  <TSA_WD_BtnNotifications>Notifications</TSA_WD_BtnNotifications>
+  <!-- EN: Reset ALL Settings -->
+  <TSA_WD_BtnResetAll>Réinitialiser TOUS les paramètres</TSA_WD_BtnResetAll>
+
+  <!-- EN: Are you sure you want to reset ALL mod settings to their default values? This cannot be undone. -->
+  <TSA_WD_ConfirmResetAll>Êtes-vous sûr de vouloir réinitialiser TOUS les paramètres du mod à leurs valeurs par défaut ? Cette opération ne peut pas être annulée.</TSA_WD_ConfirmResetAll>
+
+  
+  <!-- EN: World Event Notifications -->
+  <TSA_WD_Notify_HeaderEvents>Notifications d'événements mondiaux</TSA_WD_Notify_HeaderEvents>
+  
+  <!-- EN: Notify when a new settlement is founded in your Colony's influence radius -->
+  <TSA_WD_Notify_NewSettlement>Notifier lorsqu'une nouvelle colonie est fondée dans le rayon d'influence de votre colonie</TSA_WD_Notify_NewSettlement>
+  <!-- EN: Notify when a settlement was raided in your Colony's influence radius -->
+  <TSA_WD_Notify_SettlementRaided>Notifier lorsqu'une colonie a été pillée dans le rayon d'influence de votre colonie</TSA_WD_Notify_SettlementRaided>
+  <!-- EN: Notify when a player outpost is destroyed -->
+  <TSA_WD_Notify_OutpostDestroyed>Notifier lorsqu'un avant-poste joueur est détruit</TSA_WD_Notify_OutpostDestroyed>
+  <!-- EN: Notify about current threat level -->
+  <TSA_WD_Notify_ThreatLevel>Informer sur le niveau de menace actuel</TSA_WD_Notify_ThreatLevel>
+  <!-- EN: Notify about Diplomatic Changes -->
+  <TSA_WD_Notify_DiplomaticChange>Notifier sur les changements diplomatiques</TSA_WD_Notify_DiplomaticChange>
+  <!-- EN: Notify about Buffs/Nerfs -->
+  <TSA_WD_Notify_BuffNerf>Notifier sur les bonus / malus</TSA_WD_Notify_BuffNerf>
+  <!-- EN: Reset this page to defaults -->
+  <TSA_WD_Notify_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Notify_Reset>
+
+  <!-- EN: Triggers a notification whenever a faction establishes a new base within the borders of your influence radius. -->
+  <TSA_WD_Notify_NewSettlementTooltip>Déclenche une notification chaque fois qu'une faction établit une nouvelle base dans les limites de votre rayon d'influence.</TSA_WD_Notify_NewSettlementTooltip>
+  <!-- EN: Triggers a notification when an NPC-on-NPC raid was successful within your sphere of influence. -->
+  <TSA_WD_Notify_SettlementRaidedTooltip>Déclenche une notification lorsqu'un raid PNJ-sur-PNJ a réussi dans votre sphère d'influence.</TSA_WD_Notify_SettlementRaidedTooltip>
+  <!-- EN: Sends an urgent alert if a player-controlled outpost is lost during a simulated world raid. -->
+  <TSA_WD_Notify_OutpostDestroyedTooltip>Envoie une alerte urgente si un avant-poste contrôlé par un joueur est perdu lors d'une simulation de raid mondial.</TSA_WD_Notify_OutpostDestroyedTooltip>
+  <!-- EN: Enables recurring background updates regarding the global threat level due to enemy settlements in your influence radius. -->
+  <TSA_WD_Notify_ThreatLevelTooltip>Active les mises à jour récurrentes en arrière-plan concernant le niveau de menace global lié aux colonies ennemies situées dans votre rayon d'influence.</TSA_WD_Notify_ThreatLevelTooltip>
+  <!-- EN: Get a notification whenever NPC factions have changed diplomatic relationships (start a war, make peace etc.). -->
+  <TSA_WD_Notify_DiplomaticChangeTooltip>Recevez une notification chaque fois que les factions PNJ modifient leurs relations diplomatiques (déclaration de guerre, signature d'un traité de paix, etc.).</TSA_WD_Notify_DiplomaticChangeTooltip>
+  <!-- EN: Get a notification when a NPC faction receives a temporary buff or nerf. -->
+  <TSA_WD_Notify_BuffNerfTooltip>Recevez une notification lorsqu'une faction PNJ bénéficie d'un bonus ou d'un malus temporaire.</TSA_WD_Notify_BuffNerfTooltip>
+
+  
+  <!-- EN: Raid Point Multiplier (Radius) -->
+  <TSA_WD_Threat_HeaderRadius>Multiplicateur de points de raid (rayon)</TSA_WD_Threat_HeaderRadius>
+  <!-- EN: Raid Point Calculations -->
+  <TSA_WD_Threat_HeaderCalc>Calculs des points de raid</TSA_WD_Threat_HeaderCalc>
+  <!-- EN: Distances Modifiers -->
+  <TS_WD_Threat_DistanceMods>Modificateurs de distances</TS_WD_Threat_DistanceMods>
+  <!-- EN: Tier Level Modifiers -->
+  <TS_WD_Threat_TierMods>Modificateurs de niveau de catégorie</TS_WD_Threat_TierMods>
+
+  <!-- EN: Initial Radius (in tiles) -->
+  <TS_WD_Threat_InfBase>Rayon initial (en tuiles)</TS_WD_Threat_InfBase>
+  <!-- EN: Radius Increase per 5k Wealth (in tiles) -->
+  <TS_WD_Threat_InfWealth>Augmentation du rayon par tranche de 5 000 points de richesse (en tuiles)</TS_WD_Threat_InfWealth>
+  <!-- EN: Radius Increase per Day (in tiles) -->
+  <TS_WD_Threat_InfTime>Augmentation du rayon par jour (en tuiles)</TS_WD_Threat_InfTime>
+  <!-- EN: Min Raid Points -->
+  <TS_WD_Threat_MinPoints>Points de raid min.</TS_WD_Threat_MinPoints>
+  <!-- EN: Max Raid Points -->
+  <TS_WD_Threat_MaxPoints>Points de raid max.</TS_WD_Threat_MaxPoints>
+  <!-- EN: Min Raid Point Multiplier -->
+  <TS_WD_Threat_MinMult>Multiplicateur de points de raid min.</TS_WD_Threat_MinMult>
+  <!-- EN: Max Raid Point Multiplier -->
+  <TS_WD_Threat_MaxMult>Multiplicateur de points de raid max.</TS_WD_Threat_MaxMult>
+  <!-- EN: Within 50% of max Influence Radius -->
+  <TS_WD_Threat_Dist50>Dans les 50 % du rayon d'influence max.</TS_WD_Threat_Dist50>
+  <!-- EN: Within 51-75% of max Influence Radius -->
+  <TS_WD_Threat_Dist75>Entre 51 et 75 % du rayon d'influence max.</TS_WD_Threat_Dist75>
+  <!-- EN: Within 76%-100% of max Influence Radius -->
+  <TS_WD_Threat_Dist100>Entre 76 % et 100 % du rayon d'influence max.</TS_WD_Threat_Dist100>
+  <!-- EN: Raid Point multiplier for T1 Settlements -->
+  <TS_WD_Threat_Tier1>Multiplicateur de points de raid pour les colonies C1</TS_WD_Threat_Tier1>
+  <!-- EN: Raid Point multiplier for T2 Settlements -->
+  <TS_WD_Threat_Tier2>Multiplicateur de points de raid pour les colonies C2</TS_WD_Threat_Tier2>
+  <!-- EN: Raid Point multiplier for T3 Settlements -->
+  <TS_WD_Threat_Tier3>Multiplicateur de points de raid pour les colonies C3</TS_WD_Threat_Tier3>
+  <!-- EN: Reset this page to Defaults -->
+  <TS_WD_Threat_Reset>Réinitialiser cette page aux paramètres par défaut</TS_WD_Threat_Reset>
+
+  <!-- EN: The starting influence radius around your colony in tiles. Enemy settlements in this radius will increase the raid point multiplier if that faction attacks. -->
+  <TS_WD_Threat_InfBaseTooltip>Rayon d'influence initial autour de votre colonie, exprimé en tuiles. Les colonies ennemies situées dans ce rayon augmenteront le multiplicateur de points de raid si cette faction attaque.</TS_WD_Threat_InfBaseTooltip>
+  <!-- EN: How much the influence radius around your colony expands as you get wealthier. -->
+  <TS_WD_Threat_InfWealthTooltip>Dans quelle mesure le rayon d'influence autour de votre colonie s'étend à mesure que vous devenez plus riche.</TS_WD_Threat_InfWealthTooltip>
+  <!-- EN: How much the influence radius expands naturally over time regardless of your wealth. -->
+  <TS_WD_Threat_InfTimeTooltip>Dans quelle mesure le rayon d'influence s'étend naturellement au fil du temps, indépendamment de votre richesse.</TS_WD_Threat_InfTimeTooltip>
+  <!-- EN: The absolute floor for raid points. Raids will never be weaker than this value. Careful: Very low values may lead to cases where not a single enemy can be spawned! -->
+  <TS_WD_Threat_MinPointsTooltip>Le seuil absolu pour les points de raid. Les raids ne seront jamais plus faibles que cette valeur. Attention : des valeurs très basses peuvent conduire à des cas où aucun ennemi ne peut être généré !</TS_WD_Threat_MinPointsTooltip>
+  <!-- EN: The absolute ceiling for raid points. Prevents massive factions from sending game-breakingly large raids. -->
+  <TS_WD_Threat_MaxPointsTooltip>Le plafond absolu pour les points de raid. Empêche les factions massives d'envoyer des raids d'une ampleur telle qu'ils perturberaient le jeu.</TS_WD_Threat_MaxPointsTooltip>
+  <!-- EN: The minimum raid point multiplier applied to a faction, even if they have no presence near the player. -->
+  <TS_WD_Threat_MinMultTooltip>Le multiplicateur de points de raid minimum appliqué à une faction, même si celle-ci n'est pas présente à proximité du joueur.</TS_WD_Threat_MinMultTooltip>
+  <!-- EN: The maximum multiplier allowed for a faction's strength. Limits how much the world-presence can scale a single raid. -->
+  <TS_WD_Threat_MaxMultTooltip>Multiplicateur maximal autorisé pour la puissance d'une faction. Limite l'ampleur que peut prendre un raid unique dans le monde.</TS_WD_Threat_MaxMultTooltip>
+  <!-- EN: Raid Point multiplier for enemy bases located in the inner half of your influence radius (50 % of max influence radius). -->
+  <TS_WD_Threat_Dist50Tooltip>Multiplicateur de points de raid pour les bases ennemies situées dans la moitié intérieure de votre rayon d'influence (50 % du rayon d'influence maximal).</TS_WD_Threat_Dist50Tooltip>
+  <!-- EN: Raid Point multiplier for enemy bases located in the mid-range of your influence radius (51-75 % of max influence radius). -->
+  <TS_WD_Threat_Dist75Tooltip>Multiplicateur de points de raid pour les bases ennemies situées dans la zone intermédiaire de votre rayon d'influence (51 à 75 % du rayon d'influence maximal).</TS_WD_Threat_Dist75Tooltip>
+  <!-- EN: Raid Point multiplier for enemy bases located at the far edge of your influence radius (76-100 % of max influence radius). -->
+  <TS_WD_Threat_Dist100Tooltip>Multiplicateur de points de raid pour les bases ennemies situées à l'extrémité de votre rayon d'influence (76 à 100 % du rayon d'influence maximal).</TS_WD_Threat_Dist100Tooltip>
+  <!-- EN: Raid Point multiplier for Tier 1 villages (Logging, Mining, Farming). -->
+  <TS_WD_Threat_Tier1Tooltip>Multiplicateur de points de raid pour les villages de Catégorie 1 (forestier, minier, agricole).</TS_WD_Threat_Tier1Tooltip>
+  <!-- EN: Raid Point multiplier for Tier 2 towns (Production, Slavery). -->
+  <TS_WD_Threat_Tier2Tooltip>Multiplicateur de points de raid pour les villes de Catégorie 2 (productive, esclavagiste)</TS_WD_Threat_Tier2Tooltip>
+  <!-- EN: Raid Point multiplier for Tier 3 Towns/Fortresses. -->
+  <TS_WD_Threat_Tier3Tooltip>Multiplicateur de points de raid pour les villes / forteresses de Catégorie 3.</TS_WD_Threat_Tier3Tooltip>
+
+  
+  <!-- EN: World Raids on Player Colony -->
+  <TSA_WD_Raid_HeaderPlayer>Raids mondiaux sur la colonie du joueur</TSA_WD_Raid_HeaderPlayer>
+  <!-- EN: World Raid Simulation Parameters -->
+  <TSA_WD_Raid_HeaderSim>Paramètres de simulation des raids mondiaux</TSA_WD_Raid_HeaderSim>
+  <!-- EN: Battle Outcome Tiers (Auto-Balancing) -->
+  <TSA_WD_Raid_HeaderOutcome>Catégories de résultats de bataille (équilibrage automatique)</TSA_WD_Raid_HeaderOutcome>
+
+  <!-- EN: Allow Player Colony to be Raided -->
+  <TSA_WD_Raid_AllowPlayer>Autoriser les raids sur les colonies du joueur</TSA_WD_Raid_AllowPlayer>
+  <!-- EN: Player Raid Cooldown -->
+  <TSA_WD_Raid_CdPlayer>Temps de recharge de raid sur le joueur</TSA_WD_Raid_CdPlayer>
+  <!-- EN: Attacker Strength Cost -->
+  <TSA_WD_Raid_CostPct>Coût en force de l'attaquant</TSA_WD_Raid_CostPct>
+  <!-- EN: Player raiding is currently disabled. -->
+  <TSA_WD_Raid_DisabledPlayer>Les raids sur le joueur sont actuellement désactivés.</TSA_WD_Raid_DisabledPlayer>
+  <!-- EN: Allow Player Outposts to be Raided -->
+  <TSA_WD_Raid_AllowOutpost>Autoriser les raids sur les avant-postes du joueur</TSA_WD_Raid_AllowOutpost>
+  <!-- EN: Target Search Range -->
+  <TSA_WD_Raid_TargetRad>Zone de recherche cible</TSA_WD_Raid_TargetRad>
+  <!-- EN: Attacker Reinf. Range -->
+  <TSA_WD_Raid_AttReinfRad>Portée de renfort de l'attaquant</TSA_WD_Raid_AttReinfRad>
+  <!-- EN: Defender Reinf. Range -->
+  <TSA_WD_Raid_DefReinfRad>Portée de renfort du défenseur</TSA_WD_Raid_DefReinfRad>
+  <!-- EN: Min Strength Ratio -->
+  <TSA_WD_Raid_MinRatio>Ratio de force minimale</TSA_WD_Raid_MinRatio>
+  <!-- EN: Raze Chance -->
+  <TSA_WD_Raid_RazeChance>Chance de raser</TSA_WD_Raid_RazeChance>
+  <!-- EN: Reset this Page to Defaults -->
+  <TSA_WD_Raid_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Raid_Reset>
+
+  <!-- EN: Rel. Strength -->
+  <TSA_WD_Raid_Col0>Force relative</TSA_WD_Raid_Col0>
+  <!-- EN: Win Chance -->
+  <TSA_WD_Raid_Col1>Chance de gagner</TSA_WD_Raid_Col1>
+  <!-- EN: Attacker Victory -->
+  <TSA_WD_Raid_Col2>Victoire de l'attaquant</TSA_WD_Raid_Col2>
+  <!-- EN: Defender Defeat -->
+  <TSA_WD_Raid_Col3>Défaite du défenseur</TSA_WD_Raid_Col3>
+  <!-- EN: Attacker Defeat -->
+  <TSA_WD_Raid_Col4>Défaite de l'attaquant</TSA_WD_Raid_Col4>
+  <!-- EN: Defender Victory -->
+  <TSA_WD_Raid_Col5>Victoire du défenseur</TSA_WD_Raid_Col5>
+
+  <!-- EN: If enabled, NPC settlements within range can launch actual raids against your colony map. -->
+  <TSA_WD_Raid_AllowPlayerTooltip>Si cette option est activée, les colonies de PNJ situées à portée peuvent lancer de véritables raids contre votre carte de colonie.</TSA_WD_Raid_AllowPlayerTooltip>
+  <!-- EN: How many days must pass before your colony can be targeted again by a world-triggered raid. -->
+  <TSA_WD_Raid_CdPlayerTooltip>Nombre de jours avant que votre colonie puisse soit la cible d'un raid du monde.</TSA_WD_Raid_CdPlayerTooltip>
+  <!-- EN: The percentage of strength lost by the attacking NPC settlements when they launch an assault on your colony. -->
+  <TSA_WD_Raid_CostPctTooltip>Pourcentage de puissance perdue par les colonies PNJ attaquantes lorsqu'elles lancent un assaut contre votre colonie.</TSA_WD_Raid_CostPctTooltip>
+  <!-- EN: If enabled, NPC settlements can launch simulated raids against your Outposts in range. -->
+  <TSA_WD_Raid_AllowOutpostTooltip>Si cette option est activée, les colonies de PNJ peuvent lancer des raids simulés contre vos avant-postes situés à portée.</TSA_WD_Raid_AllowOutpostTooltip>
+  <!-- EN: Max distance (in tiles) a settlement will look to find a target. -->
+  <TSA_WD_Raid_TargetRadTooltip>Distance maximale (en tuiles) qu'une colonie parcourra pour trouver une cible.</TSA_WD_Raid_TargetRadTooltip>
+  <!-- EN: Radius to pull strength from neighboring allied settlements for an attack. -->
+  <TSA_WD_Raid_AttReinfRadTooltip>Rayon permettant de tirer la force des colonies alliées voisines pour une attaque.</TSA_WD_Raid_AttReinfRadTooltip>
+  <!-- EN: Radius for defender allies to contribute strength to the defense. -->
+  <TSA_WD_Raid_DefReinfRadTooltip>Rayon permettant aux alliés défenseurs de contribuer à la défense.</TSA_WD_Raid_DefReinfRadTooltip>
+  <!-- EN: Minimum strength advantage required for an NPC to consider a raid viable. -->
+  <TSA_WD_Raid_MinRatioTooltip>Avantage de force minimum requis pour qu'un PNJ considère un raid comme viable.</TSA_WD_Raid_MinRatioTooltip>
+  <!-- EN: Chance that a successful raid completely destroys the target settlement instead of just looting it. -->
+  <TSA_WD_Raid_RazeChanceTooltip>Probabilité qu'un raid réussi rase complètement la colonie cible au lieu de simplement la piller.</TSA_WD_Raid_RazeChanceTooltip>
+
+  <!-- EN: The ratio of Attacker Strength vs Defender Strength. -->
+  <TSA_WD_Raid_Col0Tip>Le rapport entre la force de l'attaquant et celle du défenseur.</TSA_WD_Raid_Col0Tip>
+  <!-- EN: The probability of the attacker winning in this scenario. -->
+  <TSA_WD_Raid_Col1Tip>Probabilité que l'attaquant remporte la victoire dans ce scénario.</TSA_WD_Raid_Col1Tip>
+  <!-- EN: Strength lost by Attackers on Victory. -->
+  <TSA_WD_Raid_Col2Tip>Force perdue par les attaquants en cas de victoire.</TSA_WD_Raid_Col2Tip>
+  <!-- EN: Strength lost by Defenders on Defeat. -->
+  <TSA_WD_Raid_Col3Tip>Force perdue par les défenseurs en cas de défaite.</TSA_WD_Raid_Col3Tip>
+  <!-- EN: Strength lost by Attacker on Defeat. -->
+  <TSA_WD_Raid_Col4Tip>Force perdue par l'attaquant en cas de défaite.</TSA_WD_Raid_Col4Tip>
+  <!-- EN: Strength lost by Defender on Victory (successful defense). -->
+  <TSA_WD_Raid_Col5Tip>Force perdue par le défenseur en cas de victoire (défense réussie).</TSA_WD_Raid_Col5Tip>
+
+  
+  <!-- EN: Sabotage Settings: Base Outcome Likelihood -->
+  <TSA_WD_Sab_HeaderWeights>Paramètres de sabotage : probabilité du résultat de base</TSA_WD_Sab_HeaderWeights>
+  <!-- EN: Success Likelihood Modifiers -->
+  <TSA_WD_Sab_HeaderModifiers>Modificateurs de probabilité de réussite</TSA_WD_Sab_HeaderModifiers>
+  <!-- EN: Saving Throws (Skill-based Recovery) -->
+  <TSA_WD_Sab_HeaderSaves>Jets de sauvegarde (récupération basée sur les compétences)</TSA_WD_Sab_HeaderSaves>
+  <!-- EN: Success Outcome and Cooldown -->
+  <TSA_WD_Sab_HeaderOutcome>Résultat positif et temps de recharge</TSA_WD_Sab_HeaderOutcome>
+  <!-- EN: Simulation: Against T2 Town (Healthy Pawn) -->
+  <TSA_WD_Sab_HeaderSimulation>Simulation : contre Ville C2 (pion en bonne santé)</TSA_WD_Sab_HeaderSimulation>
+
+  <!-- EN: Success Weight -->
+  <TSA_WD_Sab_WeightSuccess>Poids de réussite</TSA_WD_Sab_WeightSuccess>
+  <!-- EN: Failure Weight (Clean Escape) -->
+  <TSA_WD_Sab_WeightClean>Poids d'échec' (échapper belle)</TSA_WD_Sab_WeightClean>
+  <!-- EN: Failure Weight (Injury) -->
+  <TSA_WD_Sab_WeightInjured>Poids d'échec (blessure)</TSA_WD_Sab_WeightInjured>
+  <!-- EN: Failure Weight (Death) -->
+  <TSA_WD_Sab_WeightFatal>Poids d'échec (mort)</TSA_WD_Sab_WeightFatal>
+  
+  <!-- EN: Success Weight Bonus per Crafting Lvl -->
+  <TSA_WD_Sab_SkillBonus>Bonus de poids de réussite par niveau d'artisanat</TSA_WD_Sab_SkillBonus>
+  <!-- EN: Success Weight Penalty per Tier -->
+  <TSA_WD_Sab_TierPenalty>Pénalité de poids par catégorie</TSA_WD_Sab_TierPenalty>
+  <!-- EN: Health Impact on Success -->
+  <TSA_WD_Sab_HealthImpact>Impact de la santé sur la réussite</TSA_WD_Sab_HealthImpact>
+  
+  <!-- EN: 'Silvertongue' bonus per Social Lvl -->
+  <TSA_WD_Sab_SocialSave>Bonus d' « Éloquence » par niveau social</TSA_WD_Sab_SocialSave>
+  <!-- EN: 'Fight your way out' bonus per Combat Lvl -->
+  <TSA_WD_Sab_CombatSave>Bonus « Fuir par la force » par niveau de combat</TSA_WD_Sab_CombatSave>
+  
+  <!-- EN: Base Strength Reduction -->
+  <TSA_WD_Sab_BaseReduc>Réduction de la force de base</TSA_WD_Sab_BaseReduc>
+  <!-- EN: Reduction per Crafting Lvl -->
+  <TSA_WD_Sab_SkillReduc>Réduction par niveau d'artisanat</TSA_WD_Sab_SkillReduc>
+  <!-- EN: Cooldown after Attempt -->
+  <TSA_WD_Sab_Cooldown>Temps de recharge après tentative</TSA_WD_Sab_Cooldown>
+  <!-- EN: Reset this page to Defaults -->
+  <TSA_WD_Sab_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Sab_Reset>
+
+  <!-- EN: Base chance of a successful sabotage attempt before Modifiers. -->
+  <TSA_WD_Sab_WeightSuccessTooltip>Probabilité de base d'une tentative de sabotage réussie avant modificateurs.</TSA_WD_Sab_WeightSuccessTooltip>
+  <!-- EN: Chance of a failed attempt where the pawn escapes unnoticed. -->
+  <TSA_WD_Sab_WeightCleanTooltip>Risque d'échec de la tentative où le pion s'échappe sans être remarqué.</TSA_WD_Sab_WeightCleanTooltip>
+  <!-- EN: Chance of a failed attempt where the pawn gets away wounded. -->
+  <TSA_WD_Sab_WeightInjuredTooltip>Risque d'échec de la tentative où le pion s'échappe blessé.</TSA_WD_Sab_WeightInjuredTooltip>
+  <!-- EN: Chance of a failed attempt where the pawn gets killed. -->
+  <TSA_WD_Sab_WeightFatalTooltip>Risque d'échec de la tentative où le pion est exécuté.</TSA_WD_Sab_WeightFatalTooltip>
+  <!-- EN: Adds flat weight points to the Success outcome per Crafting level. -->
+  <TSA_WD_Sab_SkillBonusTooltip>Ajoute des points de poids fixes au résultat « Succès » par niveau d'artisanat.</TSA_WD_Sab_SkillBonusTooltip>
+  <!-- EN: Subtracts flat weight points from the Success outcome based on target Tier. -->
+  <TSA_WD_Sab_TierPenaltyTooltip>Soustrait des points de poids fixes du résultat « Succès » en fonction de la Catégorie cible.</TSA_WD_Sab_TierPenaltyTooltip>
+  <!-- EN: How much pawn health affects success. At 100%, a pawn with 50% health has their success weight halved. -->
+  <TSA_WD_Sab_HealthImpactTooltip>Influence de la santé du pion sur le succès. À 100 %, un pion dont la santé est à 50 % voit son poids de succès réduit de moitié.</TSA_WD_Sab_HealthImpactTooltip>
+  <!-- EN: Chance per Social level to convert an 'Injury' outcome into a 'Clean Escape'. -->
+  <TSA_WD_Sab_SocialSaveTooltip>Chance par niveau social de convertir un résultat « Blessure » en « Échapper belle ».</TSA_WD_Sab_SocialSaveTooltip>
+  <!-- EN: Chance per Combat level (Shooting/Melee) to convert a 'Death/Fatal' outcome into an 'Injury'. -->
+  <TSA_WD_Sab_CombatSaveTooltip>Chance par niveau de combat (tir/mêlée) de convertir un résultat « Mort/Fatal » en « Blessure ».</TSA_WD_Sab_CombatSaveTooltip>
+  <!-- EN: Base amount of Strength removed from the target settlement on success. -->
+  <TSA_WD_Sab_BaseReducTooltip>Quantité de base de Force retirée de la colonie cible en cas de réussite.</TSA_WD_Sab_BaseReducTooltip>
+  <!-- EN: Additional strength damage for every level of the pawn's Crafting skill. -->
+  <TSA_WD_Sab_SkillReducTooltip>Dégâts supplémentaires pour chaque niveau de compétence d'artisanat du pion.</TSA_WD_Sab_SkillReducTooltip>
+  <!-- EN: Duration the target settlement remains on high alert in days, preventing further sabotage. -->
+  <TSA_WD_Sab_CooldownTooltip>Durée pendant laquelle la colonie cible reste en état d'alerte maximale, empêchant ainsi tout nouveau sabotage.</TSA_WD_Sab_CooldownTooltip>
+
+  <!-- EN: All Relevant Skills Lvl 0 -->
+  <TSA_WD_Sab_SimLvl0>Toutes les compétences pertinentes Niveau 0</TSA_WD_Sab_SimLvl0>
+  <!-- EN: All Relevant Skills Lvl 10 -->
+  <TSA_WD_Sab_SimLvl10>Toutes les compétences pertinentes Niveau 10</TSA_WD_Sab_SimLvl10>
+  <!-- EN: All Relevant Skills Lvl 20 -->
+  <TSA_WD_Sab_SimLvl20>Toutes les compétences pertinentes Niveau 20</TSA_WD_Sab_SimLvl20>
+  <!-- EN: {0} | Success: {1} | Clean Fail: {2} | Injury: {3} | Death: {4} -->
+  <TSA_WD_Sab_SimResult>{0} | Succès : {1} | Échapper belle : {2} | Blessure : {3} | Décès : {4}</TSA_WD_Sab_SimResult>
+
+  
+  <!-- EN: Daily Actions per Settlement Tier -->
+  <TSA_WD_Daily_HeaderTiers>Actions quotidiennes par Catégorie de colonie</TSA_WD_Daily_HeaderTiers>
+  <!-- EN: Action Likelihood (Weights) -->
+  <TSA_WD_Daily_HeaderWeights>Probabilité d'action (poids)</TSA_WD_Daily_HeaderWeights>
+  <!-- EN: Cooldowns after an Action (Days) -->
+  <TSA_WD_Daily_HeaderCooldowns>Temps de recharge après une action (jours)</TSA_WD_Daily_HeaderCooldowns>
+
+  <!-- EN: Tier 1 -->
+  <TSA_WD_Tier1>Catégorie 1</TSA_WD_Tier1>
+  <!-- EN: Tier 2 -->
+  <TSA_WD_Tier2>Catégorie 2</TSA_WD_Tier2>
+  <!-- EN: Tier 3 -->
+  <TSA_WD_Tier3>Catégorie 3</TSA_WD_Tier3>
+  <!-- EN: Actions per day added for each T1 Settlement. -->
+  <TSA_WD_Daily_Tier1Tip>Actions par jour ajoutées pour chaque colonie C1.</TSA_WD_Daily_Tier1Tip>
+  <!-- EN: Actions per day added for each T2 Settlement. -->
+  <TSA_WD_Daily_Tier2Tip>Actions par jour ajoutées pour chaque colonie C2.</TSA_WD_Daily_Tier2Tip>
+  <!-- EN: Actions per day added for each T3 Settlement. -->
+  <TSA_WD_Daily_Tier3Tip>Actions par jour ajoutées pour chaque colonie C3.</TSA_WD_Daily_Tier3Tip>
+
+  <!-- EN: Grow Weight -->
+  <TSA_WD_Daily_WeightGrow>Poids de croissance</TSA_WD_Daily_WeightGrow>
+  <!-- EN: Raid Weight -->
+  <TSA_WD_Daily_WeightRaid>Poids de raid</TSA_WD_Daily_WeightRaid>
+  <!-- EN: Minor Incident Weight -->
+  <TSA_WD_Daily_WeightMinor>Poids d'incident mineur</TSA_WD_Daily_WeightMinor>
+  <!-- EN: Major Incident Weight -->
+  <TSA_WD_Daily_WeightMajor>Poids d'incident majeur</TSA_WD_Daily_WeightMajor>
+
+  <!-- EN: Likelihood of a Settlement to pick to grow their Strength Points. -->
+  <TSA_WD_Daily_WeightGrowTip>Probabilité qu'une colonie choisisse d'augmenter ses points de force.</TSA_WD_Daily_WeightGrowTip>
+  <!-- EN: Likelihood of a Settlement to raid a nearby settlement or player outpost. -->
+  <TSA_WD_Daily_WeightRaidTip>Probabilité qu'une colonie attaque une colonie voisine ou un avant-poste de joueur.</TSA_WD_Daily_WeightRaidTip>
+  <!-- EN: Likelihood of a Settlement to suffer from a minor incident. -->
+  <TSA_WD_Daily_WeightMinorTip>Probabilité qu'une colonie soit touchée par un incident mineur.</TSA_WD_Daily_WeightMinorTip>
+  <!-- EN: Likelihood of a Settlement to suffer from a major incident. -->
+  <TSA_WD_Daily_WeightMajorTip>Probabilité qu'une colonie soit touchée par un incident majeur.</TSA_WD_Daily_WeightMajorTip>
+
+  <!-- EN: Cooldown after Growth -->
+  <TSA_WD_Daily_CdGrow>Temps de recharge après croissance</TSA_WD_Daily_CdGrow>
+  <!-- EN: Cooldown after Expansion -->
+  <TSA_WD_Daily_CdExpand>Temps de recharge après expansion</TSA_WD_Daily_CdExpand>
+  <!-- EN: Cooldown after Raiding -->
+  <TSA_WD_Daily_CdRaid>Temps de recharge après attaque</TSA_WD_Daily_CdRaid>
+  <!-- EN: Cooldown after Being Raided -->
+  <TSA_WD_Daily_CdBeingRaided>Temps de recharge après avoir été attaqué</TSA_WD_Daily_CdBeingRaided>
+
+  <!-- EN: Days until next action after growth. -->
+  <TSA_WD_Daily_CdGrowTip>Jours avant la prochaine action après la croissance</TSA_WD_Daily_CdGrowTip>
+  <!-- EN: Days until next action after expanding. -->
+  <TSA_WD_Daily_CdExpandTip>Jours avant la prochaine action après l'expansion.</TSA_WD_Daily_CdExpandTip>
+  <!-- EN: Days until next action after raiding. -->
+  <TSA_WD_Daily_CdRaidTip>Jours avant la prochaine action après l'attaque.</TSA_WD_Daily_CdRaidTip>
+  <!-- EN: Days until next action after being raided. -->
+  <TSA_WD_Daily_CdBeingRaidedTip>Jours avant la prochaine action après avoir été attaqué.</TSA_WD_Daily_CdBeingRaidedTip>
+
+  <!-- EN: Reset this page to Defaults -->
+  <TSA_WD_Daily_Reset>Réinitialiser cette page aux paramètres par défaut</TSA_WD_Daily_Reset>
+
+  
+  <!-- EN: Action Log (Last 500) -->
+  <TSA_WD_Log_WindowTitle>Journal des actions (200 dernières)</TSA_WD_Log_WindowTitle>
+  <!-- EN: Settlement A (Actor) -->
+  <TSA_WD_Log_HeaderActor>Colonie A (Actrice)</TSA_WD_Log_HeaderActor>
+  <!-- EN: Settlement B (Target) -->
+  <TSA_WD_Log_HeaderTarget>Colonie B (Cible)</TSA_WD_Log_HeaderTarget>
+  <!-- EN: Action -->
+  <TSA_WD_Log_HeaderAction>Action</TSA_WD_Log_HeaderAction>
+  <!-- EN: Details -->
+  <TSA_WD_Log_BtnDetails>Détails</TSA_WD_Log_BtnDetails>
+
+  <!-- EN: Detailed Action Overview -->
+  <TSA_WD_RaidDet_Title>Aperçu détaillé des actions</TSA_WD_RaidDet_Title>
+  <!-- EN: CORE STATS -->
+  <TSA_WD_RaidDet_HeaderCore>STATISTIQUES CLÉS</TSA_WD_RaidDet_HeaderCore>
+  <!-- EN: POST-ACTION STRENGTH BREAKDOWN -->
+  <TSA_WD_RaidDet_HeaderBreakdown>ANALYSE DE LA FORCE APRÈS L'ACTION</TSA_WD_RaidDet_HeaderBreakdown>
+  
+  <!-- EN: ASSAULT LAUNCHED ON PLAYER -->
+  <TSA_WD_RaidDet_PlayerAssault>AGRESSION CONTRE LE JOUEUR</TSA_WD_RaidDet_PlayerAssault>
+  <!-- EN: Raid points from (Storyteller): {0} -->
+  <TSA_WD_RaidDet_StorytellerPoints>Points de raid de (Narrateur) : {0}</TSA_WD_RaidDet_StorytellerPoints>
+  <!-- EN: Faction Multiplier: {0}x -->
+  <TSA_WD_RaidDet_FactionMult>Multiplicateur de faction : {0}x</TSA_WD_RaidDet_FactionMult>
+  <!-- EN: Final Raid Points Sent to Storyteller: {0} (min value might have been applied) -->
+  <TSA_WD_RaidDet_FinalPoints>Points de raid finaux envoyés au narrateur : {0} (une valeur minimale a peut-être été appliquée)</TSA_WD_RaidDet_FinalPoints>
+
+  <!-- EN: Total Offensive Strength: {0} -->
+  <TSA_WD_RaidDet_OffStr>Force offensive totale : {0}</TSA_WD_RaidDet_OffStr>
+  <!-- EN: Total Defensive Strength: {0} -->
+  <TSA_WD_RaidDet_DefStr>Force défensive totale : {0}</TSA_WD_RaidDet_DefStr>
+  <!-- EN: Power Ratio: {0}x -->
+  <TSA_WD_RaidDet_PowerRatio>Rapport de puissance : {0}x</TSA_WD_RaidDet_PowerRatio>
+  <!-- EN: Probability of Success: {0} -->
+  <TSA_WD_RaidDet_SuccessProb>Probabilité de succès : {0}</TSA_WD_RaidDet_SuccessProb>
+  <!-- EN: Result: {0} -->
+  <TSA_WD_RaidDet_Result>Résultat : {0}</TSA_WD_RaidDet_Result>
+  <!-- EN: RAID ABORTED: Attacker strength too low -->
+  <TSA_WD_RaidDet_Aborted>RAID ABANDONNÉ : Force de l'attaquant trop faible</TSA_WD_RaidDet_Aborted>
+  <!-- EN: RAID SUCCESSFUL -->
+  <TSA_WD_RaidDet_Victory>SUCCÈS DU RAID</TSA_WD_RaidDet_Victory>
+  <!-- EN: RAID FAILED -->
+  <TSA_WD_RaidDet_Defeat>ÉCHEC DU RAID</TSA_WD_RaidDet_Defeat>
+
+  <!-- EN: Attackers (-{0}% strength): -->
+  <TSA_WD_RaidDet_AttackerLoss>Attaquants (-{0} % de force) :</TSA_WD_RaidDet_AttackerLoss>
+  <!-- EN: Defenders (-{0}% strength): -->
+  <TSA_WD_RaidDet_DefenderLoss>Défenseurs (-{0} % de force) :</TSA_WD_RaidDet_DefenderLoss>
+  <!-- EN: Target: {0} -->
+  <TSA_WD_RaidDet_TargetLabel>Cible : {0}</TSA_WD_RaidDet_TargetLabel>
+
+  
+  <!-- EN: Settlement Overview for Faction: {0} -->
+  <TSA_WD_FacDet_Title>Aperçu de la colonie pour la faction : {0}</TSA_WD_FacDet_Title>
+
+  <!-- EN: Tier -->
+  <TSA_WD_FacDet_HeaderTier>Catégorie</TSA_WD_FacDet_HeaderTier>
+  <!-- EN: Settlement Name -->
+  <TSA_WD_FacDet_HeaderName>Nom de la colonie</TSA_WD_FacDet_HeaderName>
+  <!-- EN: Strength -->
+  <TSA_WD_FacDet_HeaderStrength>Force</TSA_WD_FacDet_HeaderStrength>
+
+  <!-- EN: View -->
+  <TSA_WD_FacDet_BtnView>Vue</TSA_WD_FacDet_BtnView>
+
+
+  <!-- EN: WD: Critical Threat -->
+  <TSA_WD_Threat_LabelCritical>WD : Menace critique</TSA_WD_Threat_LabelCritical>
+  <!-- EN: WD: High Threat -->
+  <TSA_WD_Threat_LabelHigh>WD : Menace élevée</TSA_WD_Threat_LabelHigh>
+  <!-- EN: WD: Medium Threat -->
+  <TSA_WD_Threat_LabelMedium>WD : Menace modérée</TSA_WD_Threat_LabelMedium>
+  <!-- EN: WD: Low Threat -->
+  <TSA_WD_Threat_LabelLow>WD : Menace faible</TSA_WD_Threat_LabelLow>
+
+  <!-- EN: Hostile forces -->
+  <TSA_WD_Threat_HostileForces>Forces hostiles</TSA_WD_Threat_HostileForces>
+  <!-- EN: No hostile factions detected. -->
+  <TSA_WD_Threat_NoHostiles>Aucune faction hostile détectée.</TSA_WD_Threat_NoHostiles>
+  <!-- EN: Threat Multiplier Breakdown: -->
+  <TSA_WD_Threat_BreakdownHeader>Multiplicateur de menace : {0}x\n(Min. autorisé : {1}x)\n\nBases actives dans la plage dynamique :\n</TSA_WD_Threat_BreakdownHeader>
+
+  <!-- EN: CRITICAL THREAT: {0}, threat multiplier: x{1}. You are in extreme danger! Immediate sabotage or destruction of their settlements is required to survive! -->
+  <TSA_WD_Threat_DescCritical>MENACE CRITIQUE : {0}, multiplicateur de menace : x{1}. Vous êtes en danger extrême ! Il est nécessaire de saboter ou de détruire immédiatement leurs colonies pour survivre !</TSA_WD_Threat_DescCritical>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1}. Sabotage or attack their nearby settlements to reduce the threat! If they raid you, you will likely be facing defeat! -->
+  <TSA_WD_Threat_DescHigh>Menace maximale : {0}, multiplicateur de menace : x{1}. Sabotez ou attaquez leurs colonies voisines pour réduire la menace ! S'ils vous attaquent, vous risquez fort d'être vaincu !</TSA_WD_Threat_DescHigh>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1}. Sabotage or attack their nearby settlements to reduce the threat before things get out of hand! -->
+  <TSA_WD_Threat_DescMedium>Menace maximale : {0}, multiplicateur de menace : x{1}. Sabotez ou attaquez leurs colonies voisines pour réduire la menace avant que la situation ne dégénère !</TSA_WD_Threat_DescMedium>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1} -->
+  <TSA_WD_Threat_DescLow>Menace maximale : {0}, multiplicateur de menace : x{1}</TSA_WD_Threat_DescLow>
+  
+  <!-- EN: Raid points: x{0} -->
+  <TSA_WD_RaidPointsMult>Points de raid : x{0}</TSA_WD_RaidPointsMult>
+  <!-- EN: Action Log -->
+  <TSA_WD_ActionLog>Journal des actions</TSA_WD_ActionLog>
+  <!-- EN: World Stats -->
+  <TSA_WD_WorldStats>Statistiques mondiales</TSA_WD_WorldStats>
+  <!-- EN: Raid: {0} -->
+  <TSA_WD_RaidLabel>Raid : {0}</TSA_WD_RaidLabel>
+  
+  <!-- EN: Threat Multiplier Breakdown: -->
+  <TSA_WD_ThreatBreakdownHeader>Répartition du multiplicateur de menace :</TSA_WD_ThreatBreakdownHeader>
+  <!-- EN: No hostile factions detected. -->
+  <TSA_WD_NoHostileFactions>Aucune faction hostile détectée.</TSA_WD_NoHostileFactions>
+  <!-- EN: Hostile forces -->
+  <TSA_WD_HostileForcesFallback>Forces hostiles</TSA_WD_HostileForcesFallback>
+
+  <!-- EN: WD: Critical Threat -->
+  <TSA_WD_ThreatLabel_Cat3>WD : Menace critique</TSA_WD_ThreatLabel_Cat3>
+  <!-- EN: WD: High Threat -->
+  <TSA_WD_ThreatLabel_Cat2>WD : Menace élevée</TSA_WD_ThreatLabel_Cat2>
+  <!-- EN: WD: Medium Threat -->
+  <TSA_WD_ThreatLabel_Cat1>WD : Menace modérée</TSA_WD_ThreatLabel_Cat1>
+  <!-- EN: WD: Low Threat -->
+  <TSA_WD_ThreatLabel_Cat0>WD : Menace faible</TSA_WD_ThreatLabel_Cat0>
+
+  <!-- EN: CRITICAL THREAT: {0}, threat multiplier: x{1}. You are in extreme danger! Immediate sabotage or destruction of their settlements is required to survive! -->
+  <TSA_WD_ThreatDesc_Cat3>MENACE CRITIQUE : {0}, multiplicateur de menace : x{1}. Vous êtes en danger extrême ! Il est nécessaire de saboter ou de détruire immédiatement leurs colonies pour survivre !</TSA_WD_ThreatDesc_Cat3>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1}. Sabotage or attack their nearby settlements to reduce the threat! If they raid you, you will likely be facing defeat! -->
+  <TSA_WD_ThreatDesc_Cat2>Menace maximale : {0}, multiplicateur de menace : x{1}. Sabotez ou attaquez leurs colonies voisines pour réduire la menace ! S'ils vous attaquent, vous risquez fort d'être vaincu !</TSA_WD_ThreatDesc_Cat2>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1}. Sabotage or attack their nearby settlements to reduce the threat before things get out of hand! -->
+  <TSA_WD_ThreatDesc_Cat1>Menace maximale : {0}, multiplicateur de menace : x{1}. Sabotez ou attaquez leurs colonies voisines pour réduire la menace avant que la situation ne dégénère !</TSA_WD_ThreatDesc_Cat1>
+  <!-- EN: Highest threat: {0}, threat multiplier: x{1} -->
+  <TSA_WD_ThreatDesc_Cat0>Menace maximale : {0}, multiplicateur de menace : x{1}</TSA_WD_ThreatDesc_Cat0>
+  
+  <!-- EN: Randomize Allegiances -->
+  <TSA_WD_Button_Randomize>Allégeances aléatoires</TSA_WD_Button_Randomize>
+  <!-- EN: All Hostile to Player -->
+  <TSA_WD_Button_AllHostile>Tous hostiles au joueur</TSA_WD_Button_AllHostile>
+  <!-- EN: Reset to Defaults -->
+  <TSA_WD_Button_Reset>Réinitialiser les paramètres par défaut</TSA_WD_Button_Reset>
+  <!-- EN: All diplomatic ties randomized. -->
+  <TSA_WD_Msg_Randomized>Toutes les relations diplomatiques sont aléatoires.</TSA_WD_Msg_Randomized>
+  <!-- EN: All factions are now hostile to you. -->
+  <TSA_WD_Msg_AllHostile>Toutes les factions vous sont désormais hostiles.</TSA_WD_Msg_AllHostile>
+  <!-- EN: Diplomacy reset to faction defaults. -->
+  <TSA_WD_Msg_Reset>La diplomatie est réinitialisée aux paramètres par défaut de la faction.</TSA_WD_Msg_Reset>
+  
+  <!-- EN: Launch Attack -->
+  <TSA_WD_LaunchExpedition>Lancer l'attaque</TSA_WD_LaunchExpedition>
+  <!-- EN: Dispatch a strike force from this outpost to raid a nearby enemy settlement. -->
+  <TSA_WD_LaunchExpeditionDesc>Envoyez une force d'intervention depuis cet avant-poste pour attaquer une colonie ennemie voisine.</TSA_WD_LaunchExpeditionDesc>
+
+  <!-- EN: Pre-Attack Analysis -->
+  <TSA_WD_RaidAnalysis>Analyse préalable à l'attaque</TSA_WD_RaidAnalysis>
+  <!-- EN: Target -->
+  <TSA_WD_Target>Cible</TSA_WD_Target>
+  <!-- EN: Attacker Power -->
+  <TSA_WD_AttackerPower>Force de l'attaquant</TSA_WD_AttackerPower>
+  <!-- EN: Defender Power -->
+  <TSA_WD_DefenderPower>Force du défenseur</TSA_WD_DefenderPower>
+  <!-- EN: Win Chance -->
+  <TSA_WD_WinChance>Chance de l'emporter</TSA_WD_WinChance>
+  <!-- EN: Reinforcement Breakdown -->
+  <TSA_WD_ReinforcementBreakdown>Répartition des renforts</TSA_WD_ReinforcementBreakdown>
+  <!-- EN: Execute Raid -->
+  <TSA_WD_ExecuteRaid>Éxécuter l'attaque</TSA_WD_ExecuteRaid>
+
+  <!-- EN: Expected Implications -->
+  <TSA_WD_Implications>Implications attendues</TSA_WD_Implications>
+  <!-- EN: Attacker strength loss on victory: {0} -->
+  <TSA_WD_StrengthLossOnVictory>Perte de force de l'attaquant en cas de victoire : {0}</TSA_WD_StrengthLossOnVictory>
+  <!-- EN: Attacker strength loss on defeat: {0} -->
+  <TSA_WD_StrengthLossOnDefeat>Perte de force de l'attaquant en cas de défaite : {0}</TSA_WD_StrengthLossOnDefeat>
+  <!-- EN: Raid successful! {0} has been neutralized. -->
+  <TSA_WD_RaidSuccess>Raid réussi ! {0} a été neutralisé.</TSA_WD_RaidSuccess>
+
+  <!-- EN: Attack Failed -->
+  <TSA_WD_RaidFailed_Label>Attaque échouée</TSA_WD_RaidFailed_Label>
+  <!-- EN: The strike force from {0} was repelled by {1}. We suffered  {2} strength loss. -->
+  <TSA_WD_RaidFailed_Text>La force de frappe de {0} a été repoussée par {1}. Nous avons subi  {2} perte(s) d'effectif.</TSA_WD_RaidFailed_Text>
+
+  <!-- EN: {0} (Target): Strength {1} -->
+  <TSA_WD_Log_Raid_DefBase>{0} (Défenseur) : Force {1}</TSA_WD_Log_Raid_DefBase>
+  <!-- EN: {0} ({1}): Contributed {2} ({3} x {4}%) [Dist: {5} tiles, band: {6}] -->
+  <TSA_WD_Log_Raid_DefContrib>{0} ({1}) : Contribution {2} ({3} x {4} %) [Dist : {5} tuiles, bande {6}]</TSA_WD_Log_Raid_DefContrib>
+  
+  <!-- EN: Same Faction -->
+  <TSA_WD_SameFaction>Même faction</TSA_WD_SameFaction>
+  <!-- EN: Allied Faction -->
+  <TSA_WD_AlliedFaction>Faction alliée</TSA_WD_AlliedFaction>
+
+  <!-- EN: Select Outpost Type (Tier {0}) -->
+  <TSA_WD_SelectOutpostType>Sélectionner le type d'avant-poste (Catégorie {0})</TSA_WD_SelectOutpostType>
+  <!-- EN: Establish -->
+  <TSA_WD_EstablishOutpost>Établi</TSA_WD_EstablishOutpost>
+  <!-- EN: Occupied {0} -->
+  <TSA_WD_OccupiedOutpostName>Occupé {0}</TSA_WD_OccupiedOutpostName>
+  
+  <!-- EN: Relative Strength: {0} -->
+  <TSA_WD_RelativeStrength>Force relative : {0}</TSA_WD_RelativeStrength>
+  
+<!-- EN: Enemy Reinforcements in ({0}) -->
+  <TSA_WD_ReinforcementsIncoming_Label>Renforts ennemis dans ({0})</TSA_WD_ReinforcementsIncoming_Label>
+  <!-- EN: {0} forces have been diverted to support the defense and are estimated to arrive in {1}. -->
+  <TSA_WD_ReinforcementsIncoming_Text>Les forces de {0} ont été détournées pour soutenir la défense et devraient arriver à {1}.</TSA_WD_ReinforcementsIncoming_Text>
+  <!-- EN: Reinforcements: {0} -->
+  <TSA_WD_ReinforcementsArrived>Renforts : {0}</TSA_WD_ReinforcementsArrived>
+  
+  <!-- EN: Vassal Status: Strength {0} / {1} -->
+  <TSA_WD_Inspect_Vassal>Statut de vassal : Force {0} / {1}</TSA_WD_Inspect_Vassal>
+  <!-- EN: Active Player Colony -->
+  <TSA_WD_Inspect_PlayerColony>Colonie active du joueur</TSA_WD_Inspect_PlayerColony>
+  
+
+  <!-- EN: Action: Build Road -->
+  <TSA_WD_Daily_WeightBuildRoad>Action : Construire une route</TSA_WD_Daily_WeightBuildRoad>
+  <!-- EN: The relative weight of a settlement choosing to construct a road segment towards a neighbor instead of raiding or growing. -->
+  <TSA_WD_Daily_WeightBuildRoadTip>Le poids relatif d'une colonie qui choisit de construire un tronçon routier vers un voisin plutôt que de mener des raids ou de se développer.</TSA_WD_Daily_WeightBuildRoadTip>
+
+  <!-- EN: Max Road Construction Distance -->
+  <TSA_WD_Daily_MaxRoadRange>Distance maximale de construction de route</TSA_WD_Daily_MaxRoadRange>
+  <!-- EN: Settlements will not attempt to build roads toward targets further away than this many tiles. -->
+  <TSA_WD_Daily_MaxRoadRangeTip>Les colonies ne tenteront pas de construire des routes vers des cibles situées à plus de cette distance.</TSA_WD_Daily_MaxRoadRangeTip>
+
+  <!-- EN: {0} has constructed a new road segment towards {1}. -->
+  <TSA_WD_Log_ActionRoadBuild>{0} a construit un nouveau tronçon routier en direction de {1}.</TSA_WD_Log_ActionRoadBuild>
+  <!-- EN: dirt path -->
+  <TSA_WD_Log_RoadTechDirt>chemin en terre</TSA_WD_Log_RoadTechDirt>
+  <!-- EN: asphalt highway -->
+  <TSA_WD_Log_RoadTechAsphalt>autoroute asphaltée</TSA_WD_Log_RoadTechAsphalt>
+  
+  <!-- EN: Road settings -->
+  <TSA_WD_Growth_Roads>Paramètres des routes</TSA_WD_Growth_Roads>
+  
+<!-- EN: {0} built road tile towards {1}. {2} tiles remaining for completion. -->
+  <TSA_WD_Log_Road_Progress>{0} tuile de route construite vers {1}. {2} tuiles restantes pour terminer.</TSA_WD_Log_Road_Progress>
+  <!-- EN: {0} has completed the road connection to {1}! -->
+  <TSA_WD_Log_Road_Finished>{0} a achevé la liaison routière vers {1} !</TSA_WD_Log_Road_Finished>
+  
+  <!-- EN: Total route distance: {0} tiles -->
+  <TSA_WD_Log_Road_DistanceTotal>Distance totale de la route : {0} tuiles</TSA_WD_Log_Road_DistanceTotal>
+  <!-- EN: Current gap: {0} tiles -->
+  <TSA_WD_Log_Road_DistanceLeft>Écart actuel : {0} tuiles</TSA_WD_Log_Road_DistanceLeft>
+
+  <!-- EN: Construction from {0} to {1} halted: {2} detected. -->
+  <TSA_WD_Log_Road_Blocked>Construction de {0} à {1} interrompue : {2} détecté.</TSA_WD_Log_Road_Blocked>
+  <!-- EN: Impassable terrain or water -->
+  <TSA_WD_Obstacle_Impassable>Terrain impraticable ou cours d'eau</TSA_WD_Obstacle_Impassable>
+  
+  <!-- EN: {0} aborted road construction: Enemy settlement {1} is too close ({2} tiles). -->
+  <TSA_WD_Log_Road_AbortedDanger>{0} Construction routière abandonnée : la colonie ennemie {1} est trop proche ({2} tuiles).</TSA_WD_Log_Road_AbortedDanger>
+
+  <!-- EN: Build Road -->
+  <TSA_WD_Daily_WeightBuildRoad>Action : Construire une route</TSA_WD_Daily_WeightBuildRoad>
+  <!-- EN: The relative weight of a settlement choosing to construct a road segment towards a neighbor instead of raiding or growing. -->
+  <TSA_WD_Daily_WeightBuildRoadTip>Le poids relatif d'une colonie qui choisit de construire un tronçon routier vers un voisin plutôt que de mener des raids ou de se développer.</TSA_WD_Daily_WeightBuildRoadTip>
+  <!-- EN: Max Road Construction Distance -->
+  <TSA_WD_Daily_MaxRoadRange>Distance maximale de construction de route</TSA_WD_Daily_MaxRoadRange>
+  <!-- EN: Settlements will not attempt to build roads toward targets further away than this many tiles. -->
+  <TSA_WD_Daily_MaxRoadRangeTip>Les colonies ne tenteront pas de construire des routes vers des cibles situées à plus de cette distance.</TSA_WD_Daily_MaxRoadRangeTip>
+  
+  <!-- EN: Construct Road -->
+  <TSA_WD_BuildRoad>Construire une route</TSA_WD_BuildRoad>
+<!-- EN: Direct this outpost to begin constructing a road network towards a specific tile. Speed scales with outpost strength. -->
+  <TSA_WD_BuildRoadDesc>Ordonnez à cet avant-poste de commencer à construire un réseau routier vers une tuile spécifique. La vitesse dépend de la puissance de l'avant-poste.</TSA_WD_BuildRoadDesc>
+<!-- EN: Road destination set to tile {0}. -->
+  <TSA_WD_RoadTargetSet>Destination routière définie sur la tuile {0}. </TSA_WD_RoadTargetSet>
+<!-- EN: Target tile is outside of maximum construction range. -->
+  <TSA_WD_RoadTargetTooFar>La tuile cible se trouve hors de la portée maximale de construction.</TSA_WD_RoadTargetTooFar>
+
+<!-- EN: Road Construction: {0}% -->
+  <TSA_WD_Inspect_RoadProgress>Construction routière : {0} %</TSA_WD_Inspect_RoadProgress>
+<!-- EN: {0} workers have built a new road segment. {1} tile(s) remaining to target. -->
+  <TSA_WD_Log_OutpostRoadProgress>{0} travailleurs ont nettoyé une nouvelle section. {1} tuiles restantes à atteindre.</TSA_WD_Log_OutpostRoadProgress>
+<!-- EN: The road project at {0} has reached its destination! -->
+  <TSA_WD_RoadFinished>Le projet de route vers {0} a atteint son objectif !</TSA_WD_RoadFinished>
+
+<!-- EN: Currently building towards "{0}"\nProgress: {1}% -->
+  <TSA_WD_BuildRoadStatus>En cours de construction vers la tuile {0}\nProgrès : {1} %</TSA_WD_BuildRoadStatus>
+  <!-- EN: Cancel Road Construction -->
+  <TSA_WD_CancelRoad>Annuler la construction de route</TSA_WD_CancelRoad>
+  <!-- EN: Stop all road building activities for this outpost. -->
+  <TSA_WD_CancelRoadDesc>Arrêtez toutes les activités de construction routière pour cet avant-poste.</TSA_WD_CancelRoadDesc>
+  <!-- EN: Road construction at {0} has been halted. -->
+  <TSA_WD_RoadCancelled>Les travaux routiers à {0} ont été interrompus.</TSA_WD_RoadCancelled>
+
+  <!-- EN: Constructing road: {0}% to next segment -->
+  <TSA_WD_Inspect_RoadProgress>Construction routière : {0} %</TSA_WD_Inspect_RoadProgress>
+  
+  <!-- EN: Outpost Overview -->
+  <TSA_WD_OutpostManager>Aperçu de l'avant-poste</TSA_WD_OutpostManager>
+
+  <!-- EN: Outpost Overview Page -->
+  <TSA_WD_OutpostManager_Title>Page d'aperçu de l'avant-poste</TSA_WD_OutpostManager_Title>
+  <!-- EN: Outpost Name -->
+  <TSA_WD_Outpost_Name>Nom de l'avant-poste</TSA_WD_Outpost_Name>
+  <!-- EN: Pawns -->
+  <TSA_WD_Outpost_Pawns>Pions</TSA_WD_Outpost_Pawns>
+  <!-- EN: Strength -->
+  <TSA_WD_Outpost_Strength>Force</TSA_WD_Outpost_Strength>
+  <!-- EN: Next Delivery in -->
+  <TSA_WD_Outpost_Output>Prochaine livraison dans</TSA_WD_Outpost_Output>
+  
+  <!-- EN: Go to -->
+  <TSA_WD_GoTo>Aller vers</TSA_WD_GoTo>
+  
+<!-- EN: Road Construction -->
+  <TSA_WD_Outpost_Road>Construction de route</TSA_WD_Outpost_Road>
+  <!-- EN: Cooldown Status -->
+  <TSA_WD_Outpost_Status>Statut du rechargement</TSA_WD_Outpost_Status>
+  <!-- EN: Produces -->
+  <TSA_WD_Outpost_Produces>Produit</TSA_WD_Outpost_Produces>
+
+  <!-- EN: On Cooldown -->
+  <TSA_WD_Cooldown>En recharge</TSA_WD_Cooldown>
+  <!-- EN: Can be attacked or launch attack -->
+  <TSA_WD_Ready>Peut être attaqué ou lancer une attaque</TSA_WD_Ready>
+  <!-- EN: On Cooldown. Reset in {0} days. -->
+  <TSA_WD_Cooldown_Tooltip>En cours de recharge. Réinitialisation dans {0} jours.</TSA_WD_Cooldown_Tooltip>
+
+  <!-- EN: None -->
+  <TSA_WD_None>Aucun</TSA_WD_None>
+  <!-- EN: Defense/Artillery -->
+  <TSA_WD_Produces_Nothing>Défense/Artillerie</TSA_WD_Produces_Nothing>
+  <!-- EN: Random items -->
+  <TSA_WD_Produces_RandomMisc>Objets aléatoires</TSA_WD_Produces_RandomMisc>
+
+	<!-- EN: Construction already in progress. Cancel current project to set a new target. -->
+  <TSA_WD_RoadAlreadyInProgress>Construction déjà en cours. Annuler le projet actuel pour définir un nouvel objectif.</TSA_WD_RoadAlreadyInProgress>
+	<!-- EN: Dist. to Colony -->
+  <TSA_WD_Outpost_Dist>Dist. jusqu'à la colonie</TSA_WD_Outpost_Dist>
+	<!-- EN: Filter by type -->
+  <TSA_WD_FilterByType>Filtre par type</TSA_WD_FilterByType>
+	<!-- EN: tiles -->
+  <TSA_WD_Tiles>tuiles</TSA_WD_Tiles>
+
+	<!-- EN: Set redirection target -->
+  <TSA_WD_SetRedirection>Définir la cible de redirection</TSA_WD_SetRedirection>
+  <!-- EN: Clear redirection target -->
+  <TSA_WD_ClearRedirection>Enlever la cible de redirection</TSA_WD_ClearRedirection>
+
+  <!-- EN: {0} recruits from {1} have been redirected to their new destination. -->
+  <TSA_WD_RecruitsRedirected>{0} recrues provenant de {1} ont été redirigées vers leur nouvelle destination.</TSA_WD_RecruitsRedirected>
+  
+  <!-- EN: Food Supply: {0}/{1} ({2} units/day) -->
+  <TSA_FoodSupplyInspect>Approvisionnement alimentaire : {0}/{1} ({2} unités/jour)</TSA_FoodSupplyInspect>
+  
+  <!-- EN: Manual -->
+  <TSA_LogisticsMode_Manual>Manuel</TSA_LogisticsMode_Manual>
+  <!-- EN: Equal -->
+  <TSA_LogisticsMode_Equal>Égal</TSA_LogisticsMode_Equal>
+  <!-- EN: Feed -->
+  <TSA_LogisticsMode_FullyFeed>Alimentation</TSA_LogisticsMode_FullyFeed>
+  <!-- EN: Deficit -->
+  <TSA_LogisticsMode_BiggestDeficit>Déficit</TSA_LogisticsMode_BiggestDeficit>
+
+  <!-- EN: Starvation -->
+  <TSA_StarvationTitle>Inanition</TSA_StarvationTitle>
+  <!-- EN: {0} starved at {1} -->
+  <TSA_StarvationDesc>{0} est affamé à {1}</TSA_StarvationDesc>
+  
+  <!-- EN: Logistics -->
+  <TSA_LogisticsTab>Logistique</TSA_LogisticsTab>
+  <!-- EN: Distribution Hub -->
+  <TSA_DistroHub>Centre de distribution</TSA_DistroHub>
+  <!-- EN: Resource Receiving -->
+  <TSA_ResourceReceiving>Réception des ressources</TSA_ResourceReceiving>
+  <!-- EN: Food Production & Consumptions -->
+  <TSA_FoodProdConsumTitle>Production et consommation alimentaires</TSA_FoodProdConsumTitle>
+  <!-- EN: {0} Produced - {1} consumed locally = {2} Food Surplus -->
+  <TSA_FoodProdConsumMath>{0} produit(s) - {1} consommé(s) localement = {2} d'excédent alimentaire</TSA_FoodProdConsumMath>
+  <!-- EN: Local Storage -->
+  <TSA_LocalStorage>Stockage local</TSA_LocalStorage>
+  <!-- EN: Local change per Day -->
+  <TSA_LocalChangePerDay>Changement local par jour</TSA_LocalChangePerDay>
+  <!-- EN: {0} units -->
+  <TSA_UnitsCount>{0} unités</TSA_UnitsCount>
+  <!-- EN: {0} allocated of {1} available -->
+  <TSA_AllocatedStatus>{0} attribué(s) sur {1} disponible(s)</TSA_AllocatedStatus>
+  <!-- EN: Outposts in 20 tile radius -->
+  <TSA_OutpostsInRange>Avant-postes dans un rayon de 20 tuiles</TSA_OutpostsInRange>
+  <!-- EN: Incoming Supply Lines: -->
+  <TSA_IncomingSupplyLines>Lignes d'approvisionnement entrantes :</TSA_IncomingSupplyLines>
+  <!-- EN: Self-sufficient / Isolated. -->
+  <TSA_Isolated>Autonome / Isolé.</TSA_Isolated>
+  <!-- EN: Food: {0}/{1} | Eff: {2} -->
+  <TSA_OutpostInfoRow>Nourriture : {0}/{1} | Eff. : {2}</TSA_OutpostInfoRow>
+  <!-- EN: Net: {0} -->
+  <TSA_NetValue>Réseau : {0}</TSA_NetValue>
+  <!-- EN: Receiving {0} from {1} ({2}) -->
+  <TSA_ReceivingFrom>Réception de {0} en provenance de {1} ({2})</TSA_ReceivingFrom>
+  
+  <!-- EN: \n\nCalculated every 12 hours to automatically incorporate changes like newly founded outposts, destroyed ones, or changed pawn counts. -->
+  <TSA_AutoUpdateNote>\n\nCalculé toutes les 12 heures pour intégrer automatiquement les changements tels que les avant-postes nouvellement fondés, ceux détruits ou les changements dans le nombre de pions.</TSA_AutoUpdateNote>
+  <!-- EN: Distributes surplus food equally among all outposts in range that have a deficit. -->
+  <TSA_EqualTooltip>Distribue les surplus alimentaires de manière égale entre tous les avant-postes à portée qui ont un déficit.</TSA_EqualTooltip>
+  <!-- EN: Prioritizes outposts that can be 100% satisfied. Remaining food is then shared among others. -->
+  <TSA_FeedTooltip>Donne la priorité aux avant-postes qui peuvent être satisfaits à 100 %. La nourriture restante est ensuite partagée entre les autres.</TSA_FeedTooltip>
+  <!-- EN: Focuses all resources on the outposts with the most severe food shortages first. -->
+  <TSA_DeficitTooltip>Concentre toutes les ressources sur les avant-postes qui souffrent le plus de pénurie alimentaire.</TSA_DeficitTooltip>
+  <!-- EN: Disable smart logic. Assignments will only change when you click the +/- buttons.\n\nNote: Manual mode does not automatically adjust for world changes. -->
+  <TSA_ManualTooltip>Désactive la logique intelligente. Les affectations ne changeront que lorsque vous cliquerez sur les boutons +/-. Remarque : le mode manuel ne s'adapte pas automatiquement aux changements dans le monde.</TSA_ManualTooltip>
+  <!-- EN: Efficiency is derived from Distance to Outpost.\n\n10 Tiles or less: 100%\n11-15 Tiles: 85%\n16-20 Tiles: 70% -->
+  <TSA_EfficiencyTooltip>L'efficacité est calculée à partir de la distance par rapport à l'avant-poste.\n\n10 tuiles ou moins : 100 %\n11 à 15 tuiles : 85 %\n16 à 20 tuiles : 70 %</TSA_EfficiencyTooltip>
+  
+  <!-- EN: Food Flow -->
+  <TSA_WD_Outpost_FoodStatus>Flux alimentaire</TSA_WD_Outpost_FoodStatus>
+  <!-- EN: Jump to {0} -->
+  <TSA_WD_JumpToOutpost>Aller à {0}</TSA_WD_JumpToOutpost>
+  
+  <!-- EN: Diplomatic Proposal -->
+  <TSA_WD_Diplo_Proposal_Label>Proposition diplomatique</TSA_WD_Diplo_Proposal_Label>
+<!-- EN: An envoy from {0} has arrived. They are interested in shifting our current relations to {1}. Do you accept? -->
+  <TSA_WD_Diplo_Proposal_Text>Un messager en provenance de {0} est arrivé. Il souhaite faire évoluer nos relations actuelles vers {1}. Souhaitez-vous accepter cette proposition ?</TSA_WD_Diplo_Proposal_Text>
+<!-- EN: Accept -->
+  <TSA_WD_Accept>Accepter</TSA_WD_Accept>
+<!-- EN: Reject -->
+  <TSA_WD_Reject>Refuser</TSA_WD_Reject>
+
+<!-- EN: Anti-Leader Coalition -->
+  <TSA_WD_Diplo_CoalitionInvite_Label>Coalition anti-dirigeant</TSA_WD_Diplo_CoalitionInvite_Label>
+<!-- EN: Factions including {0} are forming a secret coalition to topple the dominant world leader: {1}. They are asking for our support. If we join, we will be allied with the members but at total war with {1}. -->
+  <TSA_WD_Diplo_CoalitionInvite_Text>Des factions, dont {0}, forment une coalition secrète pour renverser le dirigeant mondial ayant l'hégémonie : {1}. Elles sollicitent notre soutien. Si nous les rejoignons, nous serons alliés aux membres de cette coalition, mais en guerre totale contre {1}. Souhaitez-vous les rejoindre ?</TSA_WD_Diplo_CoalitionInvite_Text>
+<!-- EN: Join Coalition -->
+  <TSA_WD_JoinCoalition>Rejoindre la coalition</TSA_WD_JoinCoalition>
+<!-- EN: Decline -->
+  <TSA_WD_Decline>Décliner</TSA_WD_Decline>
+
+<!-- EN: Convert Meals -->
+  <TSA_WD_ConvertFood>Convertir les repas</TSA_WD_ConvertFood>
+  <!-- EN: Scan the outpost inventory for items with nutrition value (both meals, pemmican and raw food) and convert them them into virtual food points feeding the Outpost (conversion rate based on nutrition value) -->
+  <TSA_WD_ConvertFoodDesc>Scannez l'inventaire de l'avant-poste à la recherche d'articles ayant une valeur nutritive (repas, pemmican et aliments crus) et convertissez-les en points alimentaires virtuels pour nourrir l'avant-poste (taux de conversion basé sur la valeur nutritive).</TSA_WD_ConvertFoodDesc>
+  <!-- EN: No items found in the inventory of the Outpost. -->
+  <TSA_WD_NoFoodInInventory>Aucun objet trouvé dans l'inventaire de l'avant-poste.</TSA_WD_NoFoodInInventory>
+  <!-- EN: No items with nutrition value found in the inventory of the Outpost. -->
+  <TSA_WD_NoValidFood>Aucun article présentant une valeur nutritionnelle n'a été trouvé dans l'inventaire de l'avant-poste.</TSA_WD_NoValidFood>
+  <!-- EN: Successfully converted meals in the Outpost inventory into {0} virtual food units. -->
+  <TSA_WD_FoodConverted>Les repas de l'inventaire de l'avant-poste ont été convertis avec succès en {0} unités alimentaires virtuelles.</TSA_WD_FoodConverted>
+  
+<!-- EN: "Production for Outposts" mode active -->
+  <TSA_LogisticsActive>Mode « Production pour avant-postes » actif</TSA_LogisticsActive>
+  <!-- EN: Deliveries to Player Colony suspended. -->
+  <TSA_LogisticsProductionFrozen>Livraisons à la colonie du joueur suspendues.</TSA_LogisticsProductionFrozen>
+  
+  <!-- EN: Produce for Outposts -->
+  <TSA_ProduceForLogistics>Produits pour les avant-postes</TSA_ProduceForLogistics>
+  <!-- EN: Toggle whether this outpost delivers goods to your colony or whether it shall produce virtual goods for your Outposts. -->
+  <TSA_ProduceForLogisticsDesc>Choisissez la livraison de marchandises de cet avant-poste à votre colonie ou bien sa production de biens virtuels pour vos avant-postes.</TSA_ProduceForLogisticsDesc>
+  
+  <!-- EN: "Produce for Outposts" mode deactivated -->
+  <TSA_LogisticsDisabledWarning>Mode « Produits pour les avant-postes » désactivé</TSA_LogisticsDisabledWarning>
+  <!-- EN: This outposts is currently producing goods to be shipped to your colony. Activate the "Produce For Outposts" Gizmo to access this logistics menu to ship virtual goods to other outposts -->
+  <TSA_LogisticsDisabledExplanation>Cet avant-poste produit actuellement des marchandises qui seront expédiées vers votre colonie. Activez le gadget « Produire pour les avant-postes » pour accéder à ce menu logistique et expédier des marchandises virtuelles vers d'autres avant-postes.</TSA_LogisticsDisabledExplanation>
+  
+	<!-- EN: Production Breakdown -->
+  <TSA_Breakdown_Title>Répartition de la production</TSA_Breakdown_Title>
+  <!-- EN: Baseline for any outpost -->
+  <TSA_Breakdown_Base>Référence pour tout avant-poste</TSA_Breakdown_Base>
+  <!-- EN: Skill-based production -->
+  <TSA_Breakdown_SkillBonus>Production basée sur les compétences</TSA_Breakdown_SkillBonus>
+  <!-- EN: Total Production -->
+  <TSA_Breakdown_TotalProd>Production totale</TSA_Breakdown_TotalProd>
+  <!-- EN: Local Consumption -->
+  <TSA_Breakdown_Consumption>Consommation locale</TSA_Breakdown_Consumption>
+  
+  <!-- EN: Pawns -->
+  <Pawns>Pions</Pawns>
+  <!-- EN: {0}: {1} (Avg: {2}) -->
+  <TSA_SkillCombined>{0} : {1} (Moyenne : {2})</TSA_SkillCombined>
+  
+  <!-- EN: Global Logistics State -->
+  <TSA_WD_Food_HeaderGlobal>État de la logistique mondiale</TSA_WD_Food_HeaderGlobal>
+  <!-- EN: Base Production & Consumption -->
+  <TSA_WD_Food_HeaderValues>Production et consommation de base</TSA_WD_Food_HeaderValues>
+  <!-- EN: Geographical Constraints -->
+  <TSA_WD_Food_HeaderRange>Contraintes géographiques</TSA_WD_Food_HeaderRange>
+  <!-- EN: Efficiency Falloff per Radius Step -->
+  <TSA_WD_Food_EffTitle>Baisse d'efficacité par palier de rayon</TSA_WD_Food_EffTitle>
+
+  <!-- EN: Activate Food Logistics -->
+  <TSA_WD_Food_Active>Activer la logistique alimentaire</TSA_WD_Food_Active>
+  <!-- EN: If disabled, outposts will not consume virtual food and supply lines will cease functioning. -->
+  <TSA_WD_Food_ActiveTooltip>Si cette option est désactivée, les avant-postes ne consommeront pas de nourriture virtuelle et les lignes d'approvisionnement cesseront de fonctionner.</TSA_WD_Food_ActiveTooltip>
+  <!-- EN: Logistics system is currently offline. Enable to see settings. -->
+  <TSA_WD_Food_DisabledWarning>Le système logistique est actuellement hors ligne. Activez-le pour voir les paramètres.</TSA_WD_Food_DisabledWarning>
+
+  <!-- EN: Consumption per Pawn -->
+  <TSA_WD_Food_ConsPawn>Consommation par pion</TSA_WD_Food_ConsPawn>
+  <!-- EN: How much food units one pawn consumes per day in an outpost. -->
+  <TSA_WD_Food_ConsPawnTooltip>Unités alimentaires consommées par pion et par jour dans un avant-poste.</TSA_WD_Food_ConsPawnTooltip>
+
+  <!-- EN: Production per Skill Point -->
+  <TSA_WD_Food_ProdSkill>Production par point de compétence</TSA_WD_Food_ProdSkill>
+  <!-- EN: Multiplier for the sum of relevant skills (Plants/Shooting/Animals) of the occupants. -->
+  <TSA_WD_Food_ProdSkillTooltip>Multiplicateur pour la somme des compétences pertinentes (Agriculture/Tir/Animaux) des occupants.</TSA_WD_Food_ProdSkillTooltip>
+
+  <!-- EN: Max Support Radius -->
+  <TSA_WD_Food_MaxRange>Rayon maximal d'envoi</TSA_WD_Food_MaxRange>
+  <!-- EN: The maximum tile distance a Farming/Hunting outpost can send food. -->
+  <TSA_WD_Food_MaxRangeTooltip>Distance maximale à laquelle un avant-poste agricole/de chasse peut envoyer de la nourriture.</TSA_WD_Food_MaxRangeTooltip>
+
+  <!-- EN: Efficiency for outposts up to 60% of the max radius. -->
+  <TSA_WD_Food_Eff60Tip>Efficacité pour les avant-postes jusqu'à 60 % du rayon maximal.</TSA_WD_Food_Eff60Tip>
+  <!-- EN: Efficiency for outposts between 60% and 80% of the max radius. -->
+  <TSA_WD_Food_Eff80Tip>Efficacité pour les avant-postes comprise entre 60 % et 80 % du rayon maximal.</TSA_WD_Food_Eff80Tip>
+  <!-- EN: Efficiency for outposts between 80% and 100% of the max radius. -->
+  <TSA_WD_Food_Eff100Tip>Efficacité pour les avant-postes comprise entre 80 % et 100 % du rayon maximal.</TSA_WD_Food_Eff100Tip>
+
+  <!-- EN: Reset Food Logistics Settings -->
+  <TSA_WD_Food_Reset>Réinitialiser les paramètres de logistiques alimentaires</TSA_WD_Food_Reset>
+  
+  <!-- EN: Outpost Food Logistics -->
+  <TSA_WD_BtnOutpostFood>Logistique alimentaire de l'avant-poste</TSA_WD_BtnOutpostFood>
+  
+  <!-- EN: Diplomacy Matrix -->
+  <TSA_WD_DiplomacyMatrix>Matrice diplomatique</TSA_WD_DiplomacyMatrix>
+  <!-- EN: Global Diplomatic Relations -->
+  <TSA_WD_DiplomacyMatrix_Title>Relations diplomatiques mondiales</TSA_WD_DiplomacyMatrix_Title>
+  
+  <!-- EN: Faction -->
+  <TSA_WD_Diplomacy_Faction>Faction</TSA_WD_Diplomacy_Faction>
+  <!-- EN: Hostile To -->
+  <TSA_WD_Diplomacy_HostileTo>Hostile à</TSA_WD_Diplomacy_HostileTo>
+  <!-- EN: Neutral With -->
+  <TSA_WD_Diplomacy_NeutralWith>Neutre avec</TSA_WD_Diplomacy_NeutralWith>
+  <!-- EN: Ally Of -->
+  <TSA_WD_Diplomacy_AllyOf>Alliée de</TSA_WD_Diplomacy_AllyOf>
+  
+  <!-- EN: Attack Range -->
+  <TSA_WD_AttackRadius>Portée d'attaque</TSA_WD_AttackRadius>
+  <!-- EN: Logistics Range -->
+  <TSA_WD_LogisticsRadius>Portée logistique</TSA_WD_LogisticsRadius>
+  
+  <!-- EN: Action skipped: Faction is restricted or on cooldown. -->
+  <TSA_WD_Log_ActionSkip>Action ignorée : la faction est restreinte ou en temps de recharge.</TSA_WD_Log_ActionSkip>
+  <!-- EN: Faction: {0} -->
+  <TS_WD_Log_FactionLabel>Faction : {0}</TS_WD_Log_FactionLabel>
+  
+  <!-- EN: Filter by Name -->
+  <TSA_WD_FilterByName>Filtre par Nom</TSA_WD_FilterByName>
+  
+  <!-- EN: World Domination Windows -->
+  <TSA_WD_WorldDominationWindows>Fenêtre de World Domination</TSA_WD_WorldDominationWindows>
+  <!-- EN: Raid Point Multiplier -->
+  <TSA_WD_Stats_H_Threat>Multiplicateur de points de raid</TSA_WD_Stats_H_Threat>
+  
+  <!-- EN: Road Type -->
+  <TSA_WD_RoadType>Type de route</TSA_WD_RoadType>
+  <!-- EN: Change the quality of the road being built. Higher tiers require more skill and time. -->
+  <TSA_WD_SelectRoadTypeDesc>Modifiez la qualité de la route en cours de construction. Les catégories supérieures exigent davantage de compétences et de temps.</TSA_WD_SelectRoadTypeDesc>
+  
+  <!-- EN: Dirt Path -->
+  <TSA_WD_RoadDirt>Chemin en terre</TSA_WD_RoadDirt>
+  <!-- EN: Stone Road -->
+  <TSA_WD_RoadStone>Route en pierre</TSA_WD_RoadStone>
+  <!-- EN: Asphalt Road -->
+  <TSA_WD_RoadAsphalt>Route asphaltée</TSA_WD_RoadAsphalt>
+
+  <!-- EN: Stone Road (Need 15 Construction Skill, currently: {0}) -->
+  <TSA_WD_RoadStone_Disabled>Route en pierre (nécessite 15 points en compétence Construction, actuellement : {0})</TSA_WD_RoadStone_Disabled>
+  <!-- EN: Asphalt Road (Need 30 Construction Skill, currently: {0}) -->
+  <TSA_WD_RoadAsphalt_Disabled>Route asphaltée (nécessite 30 points de compétence en construction, actuellement : {0})</TSA_WD_RoadAsphalt_Disabled>
+
+  <!-- EN: Dirt -->
+  <TSA_WD_Dirt>Terre</TSA_WD_Dirt>
+  <!-- EN: Stone -->
+  <TSA_WD_Stone>Pierre</TSA_WD_Stone>
+  <!-- EN: Asphalt -->
+  <TSA_WD_Asphalt>Asphalte</TSA_WD_Asphalt>
+  
+  <!-- EN: Filter By Actor -->
+  <TSA_WD_FilterByActor>Filtre par Acteur</TSA_WD_FilterByActor>
+<!-- EN: Filter By Target -->
+  <TSA_WD_FilterByTarget>Filtre par Cible</TSA_WD_FilterByTarget>
+<!-- EN: Filter By Message -->
+  <TSA_WD_FilterByMessage>Filtre par Message</TSA_WD_FilterByMessage>
+<!-- EN: Timestamp -->
+  <TSA_WD_Log_HeaderTime>Horodatage</TSA_WD_Log_HeaderTime>
+
+<!-- EN: {0} to {2}: {1}% -->
+  <TSA_WD_Inspect_RoadStatus>{0} vers {2} : {1} %</TSA_WD_Inspect_RoadStatus>
+
+  <!-- EN: Tier 4 -->
+  <TSA_WD_Tier4>Catégorie 4</TSA_WD_Tier4>
+  <!-- EN: The daily strength contribution multiplier for Citadels. These massive hubs generate the majority of global influence. -->
+  <TSA_WD_Daily_Tier4Tip>Le multiplicateur quotidien de contribution à la puissance des citadelles. Ces centres névralgiques génèrent la majeure partie de l'influence mondiale.</TSA_WD_Daily_Tier4Tip>
+  <!-- EN: Citadel -->
+  <TSA_WD_SubType_Citadel>Citadelle</TSA_WD_SubType_Citadel>
+  
+  <!-- EN: Raid Point multiplier for T4 Settlements -->
+  <TS_WD_Threat_Tier4>Multiplicateur de points de raid pour les colonies C4</TS_WD_Threat_Tier4>
+<!-- EN: Raid Point multiplier for T4 Citadels -->
+  <TS_WD_Threat_Tier4Tooltip>Multiplicateur de points de raid pour les citadelles C4</TS_WD_Threat_Tier4Tooltip>
+
+<!-- EN: Local Max T4 Citadels -->
+  <TSA_WD_Growth_LocalMaxT4>Max. de citadelles locales C4</TSA_WD_Growth_LocalMaxT4>
+<!-- EN: Maximum T4 settlements allowed within the max Expansion Radius. -->
+  <TSA_WD_Growth_LocalMaxT4Tooltip>Nombre maximal de colonies C4 autorisées dans le rayon d'expansion maximal.</TSA_WD_Growth_LocalMaxT4Tooltip>
+  
+  <!-- EN: Initial World Generation Weights -->
+  <TSA_WD_Gen_HeaderWeights>Poids initiaux pour la génération du monde</TSA_WD_Gen_HeaderWeights>
+  <!-- EN: Likelihood of a settlement starting as a Tier 1 Outpost. -->
+  <TSA_WD_Gen_Tier1Tip>Probabilité qu'une colonie commence comme avant-poste de Catégorie 1.</TSA_WD_Gen_Tier1Tip>
+  <!-- EN: Likelihood of a settlement starting as a Tier 2 Town. -->
+  <TSA_WD_Gen_Tier2Tip>Probabilité qu'une colonie commence comme ville de Catégorie 2.</TSA_WD_Gen_Tier2Tip>
+  <!-- EN: Likelihood of a settlement starting as a Tier 3 Fortress. -->
+  <TSA_WD_Gen_Tier3Tip>Probabilité qu'une colonie commence comme forteresse de Catégorie 3.</TSA_WD_Gen_Tier3Tip>
+  <!-- EN: Likelihood of a settlement starting as a Tier 4 Citadel. -->
+  <TSA_WD_Gen_Tier4Tip>Probabilité qu'une colonie commence comme citadelle de Catégorie 4.</TSA_WD_Gen_Tier4Tip>
+  <!-- EN: Current probability of a Citadel spawning: {0} -->
+  <TSA_WD_Gen_CitadelChanceInfo>Probabilité actuelle d'apparition d'une citadelle : {0}</TSA_WD_Gen_CitadelChanceInfo>
+  <!-- EN: Reset to Defaults -->
+  <TSA_WD_Gen_Reset>Réinitialiser les paramètres par défaut</TSA_WD_Gen_Reset>
+  <!-- EN: Initial World Generation -->
+  <TSA_WD_BtnWorldGen>Génération initiale du monde</TSA_WD_BtnWorldGen>
+  <!-- EN: Reroll Settlement Tiers now -->
+  <TSA_WD_Gen_RerollAll>Réinitialisation des catégories de colonie</TSA_WD_Gen_RerollAll>
+  <!-- EN: Are you sure? This action cannot be undone! -->
+  <TSA_WD_ConfirmReroll>ATTENTION : Cette action ne peut pas être annulée !</TSA_WD_ConfirmReroll>
+  
+
+	<!-- EN: Totals -->
+  <TSA_WD_Stats_WorldTotals>Totaux</TSA_WD_Stats_WorldTotals>
+
+	<!-- EN: Buff: Mobilization -->
+  <TSA_WD_Diplo_Zeal_Label>Bonus : Mobilisation</TSA_WD_Diplo_Zeal_Label>
+	<!-- EN: Buff: '{0}' has its attack radius doubled for the next 7 days. -->
+  <TSA_WD_Diplo_ExpansionistZeal_Msg>Bonus : « {0} » voit son rayon d'attaque doublé pendant les 7 prochains jours.</TSA_WD_Diplo_ExpansionistZeal_Msg>
+
+	<!-- EN: Debuff: World Leader -->
+  <TSA_WD_Diplo_LeaderHandicap_Label>Malus : Hégémonie mondiale</TSA_WD_Diplo_LeaderHandicap_Label>
+	<!-- EN: Debuff: '{0}' have become the dominant faction. Due to their size they will suffer from more incidents in the next 10 days. -->
+  <TSA_WD_Diplo_LeaderHandicap_Msg>Malus : {0} est devenue la faction dominante. En raison de sa taille, elle subira davantage d'incidents au cours des 10 prochains jours.</TSA_WD_Diplo_LeaderHandicap_Msg>
+
+	<!-- EN: Buff: Growth Boost -->
+  <TSA_WD_Diplo_UnderdogBuff_Label>Bonus : Mobilisation des opprimés</TSA_WD_Diplo_UnderdogBuff_Label>
+	<!-- EN: Buff: '{0}' will grow faster for the next 10 days thanks to being small and nimble. -->
+  <TSA_WD_Diplo_UnderdogBuff_Msg>Bonus : Grâce à sa petite taille et à sa souplesse, la faction opprimée {0} connaîtra une croissance plus rapide au cours des 10 prochains jours.</TSA_WD_Diplo_UnderdogBuff_Msg>
+
+	<!-- EN: Buff: Expansionist -->
+  <TSA_WD_Status_Zeal>Bonus : Expansionniste</TSA_WD_Status_Zeal>
+	<!-- EN: BUFF: Doubled Raid Attack Range for the next {0} days. -->
+  <TSA_WD_Status_ZealTip>BONUS : Portée d'attaque en raid doublée pendant les prochains {0} jours.</TSA_WD_Status_ZealTip>
+	<!-- EN: Debuff: World Leader -->
+  <TSA_WD_Status_Debuff>Malus : Hégémonie mondiale</TSA_WD_Status_Debuff>
+	<!-- EN: DEBUFF: Double incident weight due to its size. Expires in {0} days. -->
+  <TSA_WD_Status_DebuffTip>MALUS : Poids double des incidents en raison de sa taille. Expire dans {0} jours.</TSA_WD_Status_DebuffTip>
+	<!-- EN: Buff: Nimble -->
+  <TSA_WD_Status_Buff>Bonus : Habile</TSA_WD_Status_Buff>
+	<!-- EN: BUFF: Double expansion and growth thanks to being small and nimble.\nHalved incident weight.\nExpires in {0} days. -->
+  <TSA_WD_Status_BuffTip>BONUS : Double expansion et croissance grâce à sa petite taille et à son habileté.\nPoids des incidents réduit de moitié.\nExpire dans {0} jours.</TSA_WD_Status_BuffTip>
+
+	<!-- EN: Attack range: {0} tiles -->
+  <TSA_WD_Inspect_AttackRange>Portée d'attaque : {0} tuiles</TSA_WD_Inspect_AttackRange>
+	<!-- EN: Attack range (Zeal): {0} tiles -->
+  <TSA_WD_Inspect_AttackRange_Zeal>Portée d'attaque (Zèle) : {0} tuiles</TSA_WD_Inspect_AttackRange_Zeal>
+	<!-- EN: Buffs and Debuffs -->
+  <TSA_WD_Stats_H_Status>Bonus et Malus</TSA_WD_Stats_H_Status>
+	
+	  <!-- EN: Global Faction Statistics -->
+  <TSA_WD_Stats_Title>Statistiques globales des factions</TSA_WD_Stats_Title>
+  <!-- EN: Detailed Overview of Settlement Tiers and Strength -->
+  <TSA_WD_Stats_Subtitle>Aperçu détaillé des catégories et de la puissance des colonies</TSA_WD_Stats_Subtitle>
+
+  <!-- EN: Faction -->
+  <TSA_WD_Stats_H_Faction>Faction</TSA_WD_Stats_H_Faction>
+  <!-- EN: Tier 1 -->
+  <TSA_WD_Stats_H_T1>Catégorie 1</TSA_WD_Stats_H_T1>
+  <!-- EN: Tier 2 -->
+  <TSA_WD_Stats_H_T2>Catégorie 2</TSA_WD_Stats_H_T2>
+  <!-- EN: Tier 3 -->
+  <TSA_WD_Stats_H_T3>Catégorie 3</TSA_WD_Stats_H_T3>
+  <!-- EN: Tier 4 -->
+  <TSA_WD_Stats_H_T4>Catégorie 4</TSA_WD_Stats_H_T4>
+  <!-- EN: Totals -->
+  <TSA_WD_Stats_H_Influence>Influence mondiale totale</TSA_WD_Stats_H_Influence>
+
+  <!-- EN: Count: {0}\nTotal T{2} Strength: {1}\nOf Global T{2} Strength: {3} -->
+  <TSA_WD_Stats_TierCell>Nombre : {0}\nForce totale C{2} : {1}\nForce globale C{2} : {3}</TSA_WD_Stats_TierCell>
+  <!-- EN: Total Settlement Count: {0}\nTotal Strength: {1}\nOf total Global Strength: {2} -->
+  <TSA_WD_Stats_TotalCell>Nombre total de colonies : {0}\nForce totale : {1}\nSur la force globale totale : {2}</TSA_WD_Stats_TotalCell>
+	
+</LanguageData>
